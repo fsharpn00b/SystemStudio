@@ -56,10 +56,6 @@ let private trade_breakdown_results_to_string (value_to_extract : string) (group
     let rec helper (acc_1 : StringBuilder) (indent_level : int) (group_1 : Group) : StringBuilder =
         let indent = String.replicate indent_level " "
         let group_name = $"{indent}{group_1.name}"
-(* We do not use this for now. *)
-(*
-Group ID: %d{group_1.id}. Parent group ID: %A{group_1.parent_id}.
-*)
 (* We cannot find a way to specify the thousands separator for the integer part of a float using F# string formatting.
 See:
 https://stackoverflow.com/a/4449135
@@ -89,16 +85,6 @@ https://stackoverflow.com/a/40830675
         helper (StringBuilder ()) 0 group_5 |> acc_7.Append
     )
     acc_6.ToString ()
-
-(* This is a proof of concept function. *)
-(*
-let rec test (acc : int list) (depth : int) (layers : int list) =
-    match layers with
-    | [] -> [{| depth = depth; chunk = [acc] |}]
-    | layer :: rest ->
-        let acc_2 = [acc |> List.filter (fun x -> x > layer); acc |> List.filter (fun x -> x < layer)]
-        {| depth = depth; chunk = acc_2 |} :: (acc_2 |> List.collect (fun list -> test list (depth + 1) rest))
-*)
 
 (* Main functions. *)
 
