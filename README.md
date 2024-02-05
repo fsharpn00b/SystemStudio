@@ -9,3 +9,5 @@ A backtester for trading systems, written in F#.
 - [short_exit.txt](short_exit.txt) - Code file that determines when to exit short positions.
 - [money_management.txt](money_management.txt) - Code file that determines position sizing.
 - [output_20240204.txt](output_20240204.txt) - The simulated results of trading the Turtle system with the Japanese Yen and Swiss Franc futures from February 1975 to December 1999, using the above configuration files.
+- [Periodic_Return.fs](Periodic_Return.fs) - Implementation file that calculates the periodic return post-system evaluation transform. The output of this transform is shown in [output_20240204.txt](output_20240204.txt).
+- [Trade_Breakdown.fs](Trade_Breakdown.fs) - Implementation file that calculates the trade breakdown post-system evaluation transform. The output of this transform is shown in [output_20240204.txt](output_20240204.txt).
