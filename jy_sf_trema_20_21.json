@@ -1,0 +1,66 @@
+{
+/* Each template variable group is used to duplicate one or more sections in the system configuration, according to the available template variable values. In this case, we want to trade the futures JY and SF. We don't want to manually duplicate all of our transforms, positions, and so on for each future. Instead, we define each transform, position, and so on once, then use template variables for the position settings that are specific to each future.
+*/
+    "template_variable_groups":
+    [
+        {
+/* Each JSON value can be:
+- A single value.
+- A list of values.
+- An expression that expands to a list of values.
+
+Each value can have type:
+- String
+- Int
+- Float
+*/
+
+            "group_id": 1,
+            "future_id": [1, 2],
+/* Note Tag filters are case sensitive. Our futures contract files have upper case names.
+*/
+            "future_name_uppercase": ["JY", "SF"],
+            "future_name_lowercase": ["jy", "sf"],
+/* Both JY and SF have the same multiplier, but we might later add other futures with different multipliers. */
+            "multiplier": [1250, 1250],
+/* Each position has an ID. */
+            "long_1_position_id": [1, 9],
+            "long_2_position_id": [2, 10],
+            "long_3_position_id": [3, 11],
+            "long_4_position_id": [4, 12],
+            "short_1_position_id": [5, 13],
+            "short_2_position_id": [6, 14],
+            "short_3_position_id": [7, 15],
+            "short_4_position_id": [8, 16],
+/* Each position has an evaluation order. */
+            "long_1_evaluation_order": [1, 9],
+            "long_2_evaluation_order": [2, 10],
+            "long_3_evaluation_order": [3, 11],
+            "long_4_evaluation_order": [4, 12],
+            "short_1_evaluation_order": [5, 13],
+            "short_2_evaluation_order": [6, 14],
+            "short_3_evaluation_order": [7, 15],
+            "short_4_evaluation_order": [8, 16],
+/* Each position input has an ID. */
+            "price_input_id": [1, 7],
+            "trema_input_id": [2, 8],
+            "long_entry_input_id": [3, 9],
+            "long_exit_input_id": [4, 10],
+            "short_entry_input_id": [5, 11],
+            "short_exit_input_id": [6, 12],
+/* Each position money management function has an ID. */
+            "position_mmf_id": [1, 2],
+/* The ID of the first long position for this future. See long_1_position_id. */
+            "long_position_id_start": [1, 9],
+/* The ID of the first short position for this future. See short_1_position_id. */
+            "short_position_id_start": [5, 13],
+        },
+    ],
+/* We use system permutations to run a trading system once for each possible permutation of its settings. System permutation variables determine what settings change between permutations. In this case, we run the system once with an exponential moving average of the true range (TREMA) with period 20, and once with period 21. */
+    "system_permutation_variable_groups":
+    [
+        {
+            "ema_period": [20,21],
+        }
+    ],
+}

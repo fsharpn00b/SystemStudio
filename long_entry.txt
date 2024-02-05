@@ -1,0 +1,70 @@
+(* Position entry requirements are as follows.
+Position    Requirement
+1           C >= n-date/time high
+2           Position 1 is filled and C >= the highest open trade entry price for position 1 + 1/2 TREMA
+3           Position 2 is filled and C >= the highest open trade entry price for position 2 + 1/2 TREMA
+4           Position 3 is filled and C >= the highest open trade entry price for position 3 + 1/2 TREMA
+
+Note These position numbers do not correspond to the system's list of positions. The turtle system uses pyramiding, and these numbers refer to the layers of the pyramid.
+*)
+    let long_position_id_start = position_id_start |> int
+    let position_states =
+        [long_position_id_start..long_position_id_start+3]
+(* Convert position IDs to the corresponding position states. *)
+        |> List.map (fun id -> system_state.position_states.[id])
+(* Discard position states that do not exist for the previous date/time. *)
+        |> List.choose (function | Initial -> None | From_Previous_Date_Time position_state -> Some position_state)
+(* If any position state does not exist for the previous date/time, return no signal. *)
+    if List.length position_states < 4 then None, None
+    else
+        let output =
+(* Get the open trades for the first position. *)
+            match position_states.[0].open_trades with
+(* If the first position has no open trades, then the entry requirement is C >= n-date/time high. *)
+            | [] -> output.Add ("long_1_entry_tag", Bool (c >= high))
+            | xs ->
+(* If the first position has open trades, get the highest entry price. *)
+                let highest_entry_price = xs |> List.map (fun trade -> trade.entry_price) |> List.max
+(* The requirement for adding more trades to the first position, if it is not already filled, is C >= the highest entry price for all open trades for the first position so far. *)
+                output.Add ("long_1_entry_tag", Bool (c >= highest_entry_price))
+        let output =
+(* Notes
+- These indexes (0-4) reference the position_states list we created previously. They do not reference the system's list of positions or position states. Therefore, starting from index 0 is correct, even if the first position state in our list does not correspond to the first position in the system.
+- We have already handled the first position. The first item in the window (indices 0-2) refers to the previous position.
+- The second item in the window (indices 1-3) refers to the current position.
+- The last item in the window (indices 2-4) does not reference the position states list. We use it in the tag we add to the output (for example, "long_2_entry_tag"). Again, we have already handled the first item in the position states list.
+- We use the same tags ("long_(1-4)_entry_tag") for all futures. This works because we do not filter on those tags alone. We filter on both those tags and the "future_name" tag.
+*)
+            let windows = [0..4] |> List.windowed 3
+(* Loop through the windows. *)
+            (output, windows) ||> List.fold (fun acc [previous_tier_index; current_tier_index; current_tier_name] ->
+                let tag = $"long_%d{current_tier_name}_entry_tag"
+                let result =
+(* If the previous position is not filled, then do not add trades to the current position. *)
+                    if not position_states.[previous_tier_index].is_filled then false
+                    else
+(* Get the open trades for the previous position. *)
+                        match position_states.[previous_tier_index].open_trades with
+                        | [] -> false
+                        | previous_tier_trades ->
+(* Get the highest entry price for the open trades for the previous position. *)
+                            let previous_tier_highest_entry_price = previous_tier_trades |> List.map (fun trade -> trade.entry_price) |> List.max
+(* If this position has no open trades, then the entry requirement is C >= the highest entry price for the open trades for the previous position, plus 1/2 TREMA. *)
+                            match position_states.[current_tier_index].open_trades with
+                            | [] -> c >= previous_tier_highest_entry_price + (0.5 * trema)
+(* If this position has open trades... *)
+                            | current_tier_trades ->
+(* If any open trade for this position is not profitable, then do not open any more trades. *)
+                                if current_tier_trades |> List.exists (fun trade ->
+                                    match trade.previous_open_equity with
+                                    | None -> true
+                                    | Some previous_open_equity when previous_open_equity < 0.0 -> true
+                                    | _ -> false
+                                ) then false
+(* Otherwise, the entry requirement is C >= the highest entry price for the open trades for the previous position, plus 1/2 TREMA. *)
+                                else c >= previous_tier_highest_entry_price + (0.5 * trema)
+(* The entry or exit signal tag value has type Bool. *)
+                acc.Add (tag, Bool result)
+            )
+(* The first return value is for storing user-defined state. The second return value is the output data item. *)
+        None, Some output

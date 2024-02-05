@@ -1,0 +1,1411 @@
+{
+  "configuration": {
+/* The name of this trading system. */
+    "name": "turtle",
+/* The folder that contains code files for custom transforms. */
+    "custom_transform_code_folder_path": "/media/data/backup/System_Studio_3_20210723/configuration/systems/turtle/",
+/* This is for debugging pre system evaluation transforms. This can be ignored. */
+    "evaluate_pre_system_evaluation_transform_requests_only": false,
+/* The folder that contains transform results so they don't have to be recalculated. This can be ignored. */
+    "transformed_data_output_folder_path": "/media/data/no_backup/ss_data/transformed_data",
+  },
+  "system_parameters": [
+    [
+      1,
+/* Set the initial equity to $1 million. */
+      {
+        "name": "initial_equity",
+        "value": "1000000.0"
+      }
+    ],
+    [
+      2,
+/* Limit trading to 10% of the historical volume. */
+      {
+        "name": "volume_fraction",
+        "value": "0.1"
+      }
+    ]
+  ],
+/* The folder that contains system evaluation results so they don't have to be recalculated. This can be ignored. */
+  "system_results_path": null,
+/* These are custom transforms we want to calculate before we evaluate the system. For now, we don't have any. */
+  "pre_system_evaluation_custom_transform_requests": [],
+/* These are predefined transforms we want to calculate before we evaluate the system. */
+  "pre_system_evaluation_predefined_transform_requests": [
+    {
+/* This transform reads in raw futures contract files. This is a special transform. We will talk more about typical transforms in the comments on the next transform, continuous_contract. */
+      "name": "read_raw_contract_data",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "read_raw_contract_data",
+/* Evaluate this transform first. */
+      "evaluation_order": 0,
+      "inputs": [],
+      "float_parameters": {},
+      "string_parameters": {
+/* The folder where the raw futures contract files are stored. */
+        "raw_data_input_folder_path": "/media/data/no_backup/ss_data/raw_data",
+/* The file name format of the raw futures contract files. For example, JY77H. */
+        "future_input_file_name_format": "([a-zA-Z]{2})([0-9]{2})(F|G|H|J|K|M|N|Q|U|V|X|Z).txt",
+/* The date format used by the raw futures contract files. For example, 770131 (January 31, 1977). */
+        "future_input_date_time_format": "yyMMdd",
+      },
+    },
+/* This denotes the start of a section we want to duplicate. The 1 means to use template variable group 1. In this case, we duplicate this section for each future.
+We don't duplicate the read_raw_contract_data transform because it reads in the raw contract data for all futures.
+*/
+<<<1<
+    {
+/* A typical transform has:
+1. A name.
+2. A type (predefined or custom).
+3. If the transform is predefined, it has a predefined transform type, such as simple moving average.
+4. An evaluation order. This is needed because some transforms input the output of other transforms.
+5. Inputs. The transform converts these inputs into output.
+6. Float parameters. These help determine the transform's behavior. For example, a simple moving average has a period.
+7. String parameters. These help determine the transform's behavior.
+
+An input for a predefined transform has:
+1. A name.
+2. Filters. These are used to make sure the transform only receives the input data it needs.
+
+Each data item contains a set of tag name and value pairs. For example, a data item that represents the raw futures contract price data for a single date/time might have the following tag names and values:
+  future_name: JY
+  date_time: 01/30/1977
+  open: 34.63
+  high: 34.69
+  low: 34.64
+  close: 34.69
+  volume: 11
+  open interest: 219
+We use these tags to filter data. For example, for a transform that only handles input data for the JY future, we filter for the tag name "future_name" and tag value "JY".
+*/
+/* This transform creates a continuous contract from raw futures contract data.
+$future_name_lowercase! is a template variable that is replaced with, for example, jy or sf. */
+      "name": "$future_name_lowercase!_continuous_contract",
+/* The file where we store transform results so they don't have to be recalculated. This can be ignored. */
+      "output_data_save_file_name": null,
+/* The predefined type of this transform. */
+      "predefined_transform_type": "continuous_contract",
+/* Evaluate this transform second, after the read_raw_contract_data transform. */
+      "evaluation_order": 1,
+      "inputs": [
+        {
+/* Each predefined transform has a predefined set of inputs. */
+          "name": "data",
+/* Filter the input data for the future name defined by the template variable. For example, JY. */
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "future_name",
+                  "value": "$future_name_uppercase"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "float_parameters": {
+/* We use the data from the contract with the highest volume for a given date/time to create the continuous contract. To prevent excessive switching between contracts, we wait until another contract has a higher volume than our current contract for 4 straight days before we switch contracts. */
+        "switch_threshold": 4
+      },
+      "string_parameters": {},
+    },
+    {
+/* This transform delays the data in the input stream by the specified number of days (in this case, one). We do this because we enter and exit trades on the open for each day, so we calculate most transforms with the input data delayed by one day. */
+      "name": "$future_name_lowercase!_delayed_1",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "delay",
+/* Evaluate this transform after the continuous contract tranform. */
+      "evaluation_order": 2,
+      "inputs": [
+        {
+          "name": "data",
+/* Filter the input data for the continuous contract for a single future. For example, jy_continuous_contract. */
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_continuous_contract"
+                }
+              ]
+            },
+          ]
+        }
+      ],
+      "float_parameters": {
+/* Delay the data by one day. */
+        "period": 1
+      },
+      "string_parameters": {},
+    },
+    {
+/* Create another delayed data stream, this time delayed by 2 days. We use this for the true range transform. */
+      "name": "$future_name_lowercase!_delayed_2",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "delay",
+      "evaluation_order": 3,
+      "inputs": [
+        {
+          "name": "data",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_continuous_contract"
+                }
+              ]
+            },
+          ]
+        }
+      ],
+      "float_parameters": {
+/* Delay the data by two days. */
+        "period": 2
+      },
+      "string_parameters": {},
+    },
+/* This transform calculates the true range, which measures price volatility. */
+    {
+      "name": "$future_name_lowercase!_true_range",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "true_range",
+      "evaluation_order": 4,
+      "inputs": [
+/* The true range is calculated using the high, low, and previous close. To calculate this transform for a given day, we need the high and low prices from the previous day's data, and the closing price from the day before that. So we provide two inputs: the data stream that we delayed by one day, and the data stream we delayed by two days. */
+        {
+          "name": "data",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_delayed_1"
+                }
+              ]
+            },
+          ]
+        },
+        {
+/* "previous_data" is a predefined input for the true range transform. */
+          "name": "previous_data",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_delayed_2"
+                }
+              ]
+            },
+          ]
+        }
+      ],
+      "float_parameters": {},
+      "string_parameters": {},
+    },
+    {
+/* This transform calculates the exponential moving average. */
+      "name": "$future_name_lowercase!_trema",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "exponential_moving_average",
+      "evaluation_order": 5,
+      "inputs": [
+        {
+          "name": "data",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_true_range"
+                }
+              ]
+            },
+          ]
+        }
+      ],
+      "float_parameters": {
+/* The EMA period is a permutation variable. That is, we create a system permutation for each EMA period value (in this case, 20 and 21). */
+        "period": @ema_period
+      },
+      "string_parameters": {
+/* Calculate the exponential moving average of the true range. */
+        "tag_name": "true_range",
+      },
+    },
+    {
+/* This transform calculates the high price for the previous n days. We use this to determine when to enter long positions or exit short ones. */
+      "name": "$future_name_lowercase!_high",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "n_period_high",
+      "evaluation_order": 6,
+      "inputs": [
+        {
+          "name": "data",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_delayed_1"
+                }
+              ]
+            },
+          ]
+        }
+      ],
+      "float_parameters": {
+/* Get the high price for the last 20 days. */
+        "period": 20,
+      },
+      "string_parameters": {
+/* Get the highest closing price for the previous n days. */
+        "tag_name": "price_close",
+      },
+    },
+/* This transform calculates the low price for the previous n days. We use this to determine when to exit long positions or enter short ones. */
+    {
+      "name": "$future_name_lowercase!_low",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "n_period_low",
+      "evaluation_order": 7,
+      "inputs": [
+        {
+          "name": "data",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_delayed_1"
+                }
+              ]
+            },
+          ]
+        }
+      ],
+      "float_parameters": {
+/* Get the low price for the last 20 days. */
+        "period": 20,
+      },
+      "string_parameters": {
+/* Get the lowest closing price for the previous n days. */
+        "tag_name": "price_close"
+      },
+    },
+/* This denotes the end of the section to duplicate. */
+>>>
+  ],
+/* These are transforms we must calculate while evaluating the system, because they depend on system evaluation data. All such transforms are custom transforms. */
+  "during_system_evaluation_transform_requests": [
+/* Duplicate these transforms for each future. */
+<<<1<
+    {
+/* A typical custom transform has:
+1. A name.
+2. A code file. This contains the function that tells the transform how to calculate the output.
+3. An evaluation order.
+4. Inputs.
+5. Float parameters.
+6. String parameters.
+
+An input for a custom transform has:
+1. A name.
+2. Filters. These are used to make sure the transform only receives the input data it needs.
+3. Tags to extract. These determine what values to extract from the input data. Each value is then assigned a name before it is passed to the transform function.
+4. Tags to copy to output. These determine what tag names and values to copy from the input stream to the output stream. This helps with filtering the output data for later transforms.
+*/
+/* This transform determines when to enter a long position. We must calculate it while evaluating the system because it must take currently open trades into account. */
+      "name": "$future_name_lowercase!_long_entry",
+/* This is a custom transform, so it has a code file. */
+      "code_file": "long_entry.txt",
+      "evaluation_order": 0,
+/* This transform takes the following inputs.
+c: The closing price for the previous day.
+high: The n-period high closing price for the previous day.
+trema: The exponential moving average of the true range (TREMA) for the previous day.
+*/
+      "inputs": [
+        {
+          "name": "c",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_delayed_1"
+                }
+              ]
+            },
+          ],
+/* Extract the closing price for the previous day. */
+          "tags_to_extract": [
+            {
+              "tag_name": "price_close",
+              "name_to_assign": "c"
+            }
+          ],
+/* In this case, we don't need to copy any specific tags from the input stream to the output stream. */
+          "tags_to_copy_to_output": [],
+/* This setting copies certain tags from the input stream to the output stream, to help with filtering the output data for later transforms. In general, this should be set to true for the first input to each custom transform, and false for the remaining inputs. */
+          "copy_series_tags_to_output": true,
+/* When copy_series_tags_to_output is set to true, this setting overwrites existing data in the output stream. In general, this should be set to false. */
+          "copy_series_tags_to_output_allow_overwrite": false
+        },
+        {
+/* This is the n-period high closing price for the previous day. */
+          "name": "high",
+/* We need to filter the input data so that the last transform applied was the n-period high.
+*/
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_high"
+                }
+              ]
+            },
+          ],
+/* Extract the n-period high for the previous day. */
+          "tags_to_extract": [
+            {
+              "tag_name": "n_period_high",
+              "name_to_assign": "high"
+            }
+          ],
+          "tags_to_copy_to_output": [],
+          "copy_series_tags_to_output": false,
+          "copy_series_tags_to_output_allow_overwrite": false
+        },
+        {
+/* This is the TREMA for the previous day. */
+          "name": "trema",
+/* We need to filter the input data for two things:
+1. The last transform applied was the TREMA for this future.
+2. The period used for the TREMA for the current system permutation.
+*/
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_trema"
+                }
+              ]
+            },
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "exponential_moving_average_period",
+                  "value": "@ema_period"
+                }
+              ]
+            },
+          ],
+/* Extract the TREMA for the previous day. */
+          "tags_to_extract": [
+            {
+              "tag_name": "exponential_moving_average",
+              "name_to_assign": "trema"
+            }
+          ],
+          "tags_to_copy_to_output": [],
+          "copy_series_tags_to_output": false,
+          "copy_series_tags_to_output_allow_overwrite": false
+        }
+      ],
+/* This custom transform needs to know the ID of the first long position for the current future. This is a template variable. */
+      "float_parameters": {
+        "position_id_start": $long_position_id_start,
+      },
+      "string_parameters": {},
+    },
+/* This transform determines when to exit a long position. It is similar to the transform that determines when to enter a long position, in terms of inputs and so on. */
+    {
+      "name": "$future_name_lowercase!_long_exit",
+      "code_file": "long_exit.txt",
+      "evaluation_order": 0,
+      "inputs": [
+        {
+          "name": "c",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_delayed_1"
+                }
+              ]
+            },
+          ],
+          "tags_to_extract": [
+            {
+              "tag_name": "price_close",
+              "name_to_assign": "c"
+            }
+          ],
+          "tags_to_copy_to_output": [],
+          "copy_series_tags_to_output": true,
+          "copy_series_tags_to_output_allow_overwrite": false,
+        },
+        {
+          "name": "low",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_low"
+                }
+              ]
+            },
+          ],
+          "tags_to_extract": [
+            {
+              "tag_name": "n_period_low",
+              "name_to_assign": "low"
+            }
+          ],
+          "tags_to_copy_to_output": [],
+          "copy_series_tags_to_output": false,
+          "copy_series_tags_to_output_allow_overwrite": false,
+        },
+        {
+          "name": "trema",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_trema"
+                }
+              ]
+            },
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "exponential_moving_average_period",
+                  "value": "@ema_period"
+                }
+              ]
+            },
+          ],
+          "tags_to_extract": [
+            {
+              "tag_name": "exponential_moving_average",
+              "name_to_assign": "trema"
+            }
+          ],
+          "tags_to_copy_to_output": [],
+          "copy_series_tags_to_output": false,
+          "copy_series_tags_to_output_allow_overwrite": false
+        }
+      ],
+      "float_parameters": {
+        "position_id_start": $long_position_id_start,
+      },
+      "string_parameters": {},
+    },
+/* This transform determines when to enter a short position. It is similar to the transform that determines when to enter a long position, in terms of inputs and so on. */
+    {
+      "name": "$future_name_lowercase!_short_entry",
+      "code_file": "short_entry.txt",
+      "evaluation_order": 0,
+      "inputs": [
+        {
+          "name": "c",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_delayed_1"
+                }
+              ]
+            },
+          ],
+          "tags_to_extract": [
+            {
+              "tag_name": "price_close",
+              "name_to_assign": "c"
+            }
+          ],
+          "tags_to_copy_to_output": [],
+          "copy_series_tags_to_output": true,
+          "copy_series_tags_to_output_allow_overwrite": false
+        },
+        {
+          "name": "low",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_low"
+                }
+              ]
+            },
+          ],
+          "tags_to_extract": [
+            {
+              "tag_name": "n_period_low",
+              "name_to_assign": "low"
+            }
+          ],
+          "tags_to_copy_to_output": [],
+          "copy_series_tags_to_output": false,
+          "copy_series_tags_to_output_allow_overwrite": false
+        },
+        {
+          "name": "trema",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_trema"
+                }
+              ]
+            },
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "exponential_moving_average_period",
+                  "value": "@ema_period"
+                }
+              ]
+            },
+          ],
+          "tags_to_extract": [
+            {
+              "tag_name": "exponential_moving_average",
+              "name_to_assign": "trema"
+            }
+          ],
+          "tags_to_copy_to_output": [],
+          "copy_series_tags_to_output": false,
+          "copy_series_tags_to_output_allow_overwrite": false
+        }
+      ],
+      "float_parameters": {
+        "position_id_start": $short_position_id_start,
+      },
+      "string_parameters": {},
+    },
+/* This transform determines when to exit a short position. It is similar to the transform that determines when to enter a long position, in terms of inputs and so on. */
+    {
+      "name": "$future_name_lowercase!_short_exit",
+      "code_file": "short_exit.txt",
+      "evaluation_order": 0,
+      "inputs": [
+        {
+          "name": "c",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_delayed_1"
+                }
+              ]
+            },
+          ],
+          "tags_to_extract": [
+            {
+              "tag_name": "price_close",
+              "name_to_assign": "c"
+            }
+          ],
+          "tags_to_copy_to_output": [],
+          "copy_series_tags_to_output": true,
+          "copy_series_tags_to_output_allow_overwrite": false
+        },
+        {
+          "name": "high",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_high"
+                }
+              ]
+            },
+          ],
+          "tags_to_extract": [
+            {
+              "tag_name": "n_period_high",
+              "name_to_assign": "high"
+            }
+          ],
+          "tags_to_copy_to_output": [],
+          "copy_series_tags_to_output": false,
+          "copy_series_tags_to_output_allow_overwrite": false,
+        },
+        {
+          "name": "trema",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "$future_name_lowercase!_trema"
+                }
+              ]
+            },
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "exponential_moving_average_period",
+                  "value": "@ema_period"
+                }
+              ]
+            },
+          ],
+          "input_name": "trema",
+          "tags_to_extract": [
+            {
+              "tag_name": "exponential_moving_average",
+              "name_to_assign": "trema"
+            }
+          ],
+          "tags_to_copy_to_output": [],
+          "copy_series_tags_to_output": false,
+          "copy_series_tags_to_output_allow_overwrite": false
+        }
+      ],
+      "float_parameters": {
+        "position_id_start": $short_position_id_start,
+      },
+      "string_parameters": {},
+    },
+>>>
+  ],
+/* Position inputs contain the information used to determine when to enter or exit positions and to calculate the profits/losses on trades for each position. */
+  "position_inputs": [
+/* Duplicate these position inputs for each future. */
+<<<1<
+    {
+/* This input contains the price data for a single future. */
+      "id": $price_input_id,
+      "name": "input_$future_name_lowercase",
+      "type_": {
+/* This input contains price data. */
+        "Case": "Price"
+      },
+/* We need to filter the input data so that the last transform applied was the continuous contract for this future.
+*/
+      "filters": [
+        {
+          "Case": "Name_Value",
+          "Fields": [
+            {
+              "name": "last_transform_applied",
+              "value": "$future_name_lowercase!_continuous_contract"
+            }
+          ]
+        },
+      ]
+    },
+    {
+/* This input contains the exponential moving average of the true range (TREMA) for this future. We use this when we open a trade for a position, to determine the trade size. */
+      "id": $trema_input_id,
+      "name": "$future_name_lowercase!_trema",
+      "type_": {
+/* This input comes from a pre system evaluation transform. */
+        "Case": "Before_System_Evaluation_Transform"
+      },
+/* We need to filter the input data for two things:
+1. The last transform applied was the TREMA for this future.
+2. The period used for the TREMA for the current system permutation.
+*/
+      "filters": [
+        {
+          "Case": "Name_Value",
+          "Fields": [
+            {
+              "name": "last_transform_applied",
+              "value": "$future_name_lowercase!_trema"
+            }
+          ]
+        },
+        {
+          "Case": "Name_Value",
+          "Fields": [
+            {
+              "name": "exponential_moving_average_period",
+              "value": "@ema_period"
+            }
+          ]
+        },
+      ]
+    },
+    {
+/* This input contains the long position entry signal. */
+      "id": $long_entry_input_id,
+      "name": "$future_name_lowercase long_entry signal",
+      "type_": {
+/* The long position entry signal comes from a during system evaluation transform. */
+        "Case": "During_System_Evaluation_Transform"
+      },
+/* We need to filter the input data so that the last transform applied was the custom transform that determines when to enter a long position. */
+      "filters": [
+        {
+          "Case": "Name_Value",
+          "Fields": [
+            {
+              "name": "last_transform_applied",
+              "value": "$future_name_lowercase!_long_entry"
+            }
+          ]
+        },
+      ]
+    },
+/* This input contains the long position exit signal. It is similar to the input for the long position entry signal. */
+    {
+      "id": $long_exit_input_id,
+      "name": "$future_name_lowercase long_exit signal",
+      "type_": {
+        "Case": "During_System_Evaluation_Transform"
+      },
+      "filters": [
+        {
+          "Case": "Name_Value",
+          "Fields": [
+            {
+              "name": "last_transform_applied",
+              "value": "$future_name_lowercase!_long_exit",
+            }
+          ]
+        },
+      ]
+    },
+/* This input contains the short position entry signal. It is similar to the input for the long position entry signal. */
+    {
+      "id": $short_entry_input_id,
+      "name": "$future_name_lowercase short_entry signal",
+      "type_": {
+        "Case": "During_System_Evaluation_Transform"
+      },
+      "filters": [
+        {
+          "Case": "Name_Value",
+          "Fields": [
+            {
+              "name": "last_transform_applied",
+              "value": "$future_name_lowercase!_short_entry"
+            }
+          ]
+        },
+      ]
+    },
+/* This input contains the short position exit signal. It is similar to the input for the long position entry signal. */
+    {
+      "id": $short_exit_input_id,
+      "name": "$future_name_lowercase short_exit signal",
+      "type_": {
+        "Case": "During_System_Evaluation_Transform"
+      },
+      "filters": [
+        {
+          "Case": "Name_Value",
+          "Fields": [
+            {
+              "name": "last_transform_applied",
+              "value": "$future_name_lowercase!_short_exit"
+            }
+          ]
+        },
+      ]
+    },
+>>>
+  ],
+/* Position money management inputs contain the information we use to determine the sizes of trades. */
+  "position_money_management_function_inputs": [
+/* Duplicate this input for each future. */
+<<<1<
+    {
+      "name": "$future_name_lowercase!_trema",
+      "position_input_name": "$future_name_lowercase!_trema",
+/* Extract the TREMA for the previous day. */
+      "tag_name": "exponential_moving_average"
+    },
+>>>
+  ],
+/* Position money management functions determine the sizes of trades. */
+  "position_money_management_functions": [
+/* Duplicate this function for each future. */
+<<<1<
+    {
+      "id": $position_mmf_id,
+      "name": "$future_name_lowercase!_mmf",
+      "inputs": [
+/* This looks up the corresponding name in the position money management function inputs. */
+        "$future_name_lowercase!_trema"
+      ],
+      "float_parameters": {},
+      "string_parameters": {},
+/* Like a custom transform, a position money management function has a code file. */
+      "code_file": "money_management.txt"
+    },
+>>>
+  ],
+  "position_parameters": [
+    [
+      1,
+      {
+/* Risk one percent of closed equity when we open a trade. */
+        "name": "equity_fraction",
+        "value": "0.01"
+      }
+    ]
+  ],
+/* Positions determine how we enter and exit trades. */
+  "positions": [
+/* Duplicate these positions for each future. */
+<<<1<
+    {
+      "id": $long_1_position_id,
+      "name": "$future_name_lowercase!_long_1",
+/* Each position belongs to a single future. */
+      "instrument": {
+        "id": $future_id,
+        "name": "$future_name_uppercase"
+      },
+/* A position can be either long or short. */
+      "long_or_short": {
+        "Case": "Long"
+      },
+/* Like a transform, a position has an evaluation order. This is needed for systems like the turtle system that use pyramiding. */
+      "evaluation_order": $long_1_evaluation_order,
+/* The position input that provides price data. */
+      "price_input_id": $price_input_id,
+/* The multiplier is used to calculate profits/losses on trades, and to determine the sizes of trades. */
+      "multiplier": $multiplier,
+/* The position input that provides entry signals. */
+      "entry_signal_input_id": $long_entry_input_id,
+/* The tag name for the value to extract from the entry signal input data. The value should be of type bool. */
+      "entry_signal_tag_name": "long_1_entry_tag",
+/* The position input that provides exit signals. */
+      "exit_signal_input_id": $long_exit_input_id,
+/* The tag name for the value to extract from the exit signal input data. The value should be of type bool. */
+      "exit_signal_tag_name": "long_1_exit_tag",
+/* We cannot trade partial futures contracts. For equities, this setting would be false. */
+      "size_must_be_whole_number": true,
+/* These two settings let us dynamically increase or decrease the size of each trade when we recalculate the position money management formula for each day. They should be set to false. */
+      "dynamically_increase_size" : false,
+      "dynamically_decrease_size" : false,
+/* The position money management input. */
+      "money_management_function_id": $position_mmf_id,
+/* Enter and exit the position using the opening price for the current day. */
+      "entry_price_tag_name": "price_open",
+      "exit_price_tag_name": "price_open"
+    },
+/* The turtle system uses pyramiding. We have a total of four long positions and four short positions for each future. We could create one long and one short position and use templates to duplicate them four times each, but that would require nested templates, which aren't currently supported.
+These positions are similar to the first long position.
+*/
+    {
+      "id": $long_2_position_id,
+      "name": "$future_name_lowercase!_long_2",
+      "instrument": {
+        "id": $future_id,
+        "name": "$future_name_uppercase"
+      },
+      "long_or_short": {
+        "Case": "Long"
+      },
+      "evaluation_order": $long_2_evaluation_order,
+      "price_input_id": $price_input_id,
+      "multiplier": $multiplier,
+      "entry_signal_input_id": $long_entry_input_id,
+      "entry_signal_tag_name": "long_2_entry_tag",
+      "exit_signal_input_id": $long_exit_input_id,
+      "exit_signal_tag_name": "long_2_exit_tag",
+      "size_must_be_whole_number": true,
+      "dynamically_increase_size" : false,
+      "dynamically_decrease_size" : false,
+      "money_management_function_id": $position_mmf_id,
+      "entry_price_tag_name": "price_open",
+      "exit_price_tag_name": "price_open"
+    },
+    {
+      "id": $long_3_position_id,
+      "name": "$future_name_lowercase!_long_3",
+      "instrument": {
+        "id": $future_id,
+        "name": "$future_name_uppercase"
+      },
+      "long_or_short": {
+        "Case": "Long"
+      },
+      "evaluation_order": $long_3_evaluation_order,
+      "price_input_id": $price_input_id,
+      "multiplier": $multiplier,
+      "entry_signal_input_id": $long_entry_input_id,
+      "entry_signal_tag_name": "long_3_entry_tag",
+      "exit_signal_input_id": $long_exit_input_id,
+      "exit_signal_tag_name": "long_3_exit_tag",
+      "size_must_be_whole_number": true,
+      "dynamically_increase_size" : false,
+      "dynamically_decrease_size" : false,
+      "money_management_function_id": $position_mmf_id,
+      "entry_price_tag_name": "price_open",
+      "exit_price_tag_name": "price_open"
+    },
+    {
+      "id": $long_4_position_id,
+      "name": "$future_name_lowercase!_long_4",
+      "instrument": {
+        "id": $future_id,
+        "name": "$future_name_uppercase"
+      },
+      "long_or_short": {
+        "Case": "Long"
+      },
+      "evaluation_order": $long_4_evaluation_order,
+      "price_input_id": $price_input_id,
+      "multiplier": $multiplier,
+      "entry_signal_input_id": $long_entry_input_id,
+      "entry_signal_tag_name": "long_4_entry_tag",
+      "exit_signal_input_id": $long_exit_input_id,
+      "exit_signal_tag_name": "long_4_exit_tag",
+      "size_must_be_whole_number": true,
+      "dynamically_increase_size" : false,
+      "dynamically_decrease_size" : false,
+      "money_management_function_id": $position_mmf_id,
+      "entry_price_tag_name": "price_open",
+      "exit_price_tag_name": "price_open"
+    },
+    {
+      "id": $short_1_position_id,
+      "name": "$future_name_lowercase!_short_1",
+      "instrument": {
+        "id": $future_id,
+        "name": "$future_name_uppercase"
+      },
+      "long_or_short": {
+        "Case": "Short"
+      },
+      "evaluation_order": $short_1_evaluation_order,
+      "price_input_id": $price_input_id,
+      "multiplier": $multiplier,
+      "entry_signal_input_id": $short_entry_input_id,
+      "entry_signal_tag_name": "short_1_entry_tag",
+      "exit_signal_input_id": $short_exit_input_id,
+      "exit_signal_tag_name": "short_1_exit_tag",
+      "size_must_be_whole_number": true,
+      "dynamically_increase_size" : false,
+      "dynamically_decrease_size" : false,
+      "money_management_function_id": $position_mmf_id,
+      "entry_price_tag_name": "price_open",
+      "exit_price_tag_name": "price_open"
+    },
+    {
+      "id": $short_2_position_id,
+      "name": "$future_name_lowercase!_short_2",
+      "instrument": {
+        "id": $future_id,
+        "name": "$future_name_uppercase"
+      },
+      "long_or_short": {
+        "Case": "Short"
+      },
+      "evaluation_order": $short_2_evaluation_order,
+      "price_input_id": $price_input_id,
+      "multiplier": $multiplier,
+      "entry_signal_input_id": $short_entry_input_id,
+      "entry_signal_tag_name": "short_2_entry_tag",
+      "exit_signal_input_id": $short_exit_input_id,
+      "exit_signal_tag_name": "short_2_exit_tag",
+      "size_must_be_whole_number": true,
+      "dynamically_increase_size" : false,
+      "dynamically_decrease_size" : false,
+      "money_management_function_id": $position_mmf_id,
+      "entry_price_tag_name": "price_open",
+      "exit_price_tag_name": "price_open"
+    },
+    {
+      "id": $short_3_position_id,
+      "name": "$future_name_lowercase!_short_3",
+      "instrument": {
+        "id": $future_id,
+        "name": "$future_name_uppercase"
+      },
+      "long_or_short": {
+        "Case": "Short"
+      },
+      "evaluation_order": $short_3_evaluation_order,
+      "price_input_id": $price_input_id,
+      "multiplier": $multiplier,
+      "entry_signal_input_id": $short_entry_input_id,
+      "entry_signal_tag_name": "short_3_entry_tag",
+      "exit_signal_input_id": $short_exit_input_id,
+      "exit_signal_tag_name": "short_3_exit_tag",
+      "size_must_be_whole_number": true,
+      "dynamically_increase_size" : false,
+      "dynamically_decrease_size" : false,
+      "money_management_function_id": $position_mmf_id,
+      "entry_price_tag_name": "price_open",
+      "exit_price_tag_name": "price_open"
+    },
+    {
+      "id": $short_4_position_id,
+      "name": "$future_name_lowercase!_short_4",
+      "instrument": {
+        "id": $future_id,
+        "name": "$future_name_uppercase"
+      },
+      "long_or_short": {
+        "Case": "Short"
+      },
+      "evaluation_order": $short_4_evaluation_order,
+      "price_input_id": $price_input_id,
+      "multiplier": $multiplier,
+      "entry_signal_input_id": $short_entry_input_id,
+      "entry_signal_tag_name": "short_4_entry_tag",
+      "exit_signal_input_id": $short_exit_input_id,
+      "exit_signal_tag_name": "short_4_exit_tag",
+      "size_must_be_whole_number": true,
+      "dynamically_increase_size" : false,
+      "dynamically_decrease_size" : false,
+      "money_management_function_id": $position_mmf_id,
+      "entry_price_tag_name": "price_open",
+      "exit_price_tag_name": "price_open"
+    },
+>>>
+  ],
+/* Post system evaluation transforms are calculated on the system results. For now, we don't have any custom post system evaluation transforms. */  
+  "post_system_evaluation_custom_transform_requests": [],
+/* These are predefined post system evaluation transforms that are calculated on the system results. */
+  "post_system_evaluation_predefined_transform_requests": [
+/* We don't need to duplicate these transforms for each future. They input system results for all futures. */
+    {
+/* This transform gets the final equity for a single system permutation. */
+      "name": "final_equity",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "final_equity",
+      "evaluation_order": 1,
+      "inputs": [
+        {
+          "name": "data",
+/* We filter the input data on the following two things:
+1. The last transform applied was system evaluation.
+2. The current system permutation ID.
+*/
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "system_evaluation"
+                }
+              ]
+            },
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "system_permutation_id",
+/* @system_permutation_id is a built-in permutation variable that we can use to distinguish system evaluation results for different system permutations. */
+                  "value": "@system_permutation_id",
+                }
+              ]
+            },
+          ]
+        }
+      ],
+      "float_parameters": {},
+      "string_parameters": {},
+    },
+    {
+/* This transform calculates the compound annual growth rate. Its inputs are similar to those for the final equity transform. */
+      "name": "compound_annual_growth_rate",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "compound_annual_growth_rate",
+      "evaluation_order": 1,
+      "inputs": [
+        {
+          "name": "data",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "system_evaluation"
+                }
+              ]
+            },
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "system_permutation_id",
+                  "value": "@system_permutation_id",
+                }
+              ]
+            },
+          ]
+        }
+      ],
+      "float_parameters": {},
+      "string_parameters": {},
+    },
+    {
+/* This transform calculates the return for each month and year the system traded. Its inputs are similar to those for the final equity transform. */
+      "name": "periodic_return",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "periodic_return",
+      "evaluation_order": 1,
+      "inputs": [
+        {
+          "name": "data",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "system_evaluation"
+                }
+              ]
+            },
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "system_permutation_id",
+                  "value": "@system_permutation_id",
+                }
+              ]
+            },
+          ]
+        }
+      ],
+      "float_parameters": {},
+      "string_parameters": {},
+    },
+    {
+/* This transform gets data about the largest drawdown the system experienced. Its inputs are similar to those for the final equity transform. */
+      "name": "drawdown",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "drawdown",
+      "evaluation_order": 1,
+      "inputs": [
+        {
+          "name": "data",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "system_evaluation"
+                }
+              ]
+            },
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "system_permutation_id",
+                  "value": "@system_permutation_id",
+                }
+              ]
+            },
+          ]
+        }
+      ],
+      "float_parameters": {},
+      "string_parameters": {},
+    },
+    {
+/* This transform breaks down the system evaluation results using a specified metric (in this case, net profits/losses) and a specified list of catgeories (in this case, system permuation, future, long or short position, and position). */
+      "name": "trade_breakdown_1",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "trade_breakdown",
+      "evaluation_order": 1,
+      "inputs": [
+        {
+          "name": "data",
+/* We need to filter the input data for two things:
+1. The last transform applied was system evaluation.
+2. The data contains information about a closed trade.
+*/
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "system_evaluation"
+                }
+              ]
+            },
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "system_evaluation_result_type",
+                  "value": "System_Evaluation_Result_Closed_Trade"
+                }
+              ]
+            },
+          ]
+        }
+      ],
+      "float_parameters": {},
+      "string_parameters": {
+/* Break profits/losses down as follows:
+1. System permutation.
+2. Future name.
+3. Long or short position.
+4. Position name.
+*/
+        "layers": "system_permutation_data,future_name,closed_trade_state_position_long_or_short,closed_trade_state_position_name",
+/* Break system evaluation results down according to the profit/loss on each trade. */
+        "value_to_extract": "closed_trade_state_closed_equity_change"
+      },
+    },
+    {
+/* This time, break down only the profits. */
+      "name": "trade_breakdown_2",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "trade_breakdown",
+      "evaluation_order": 1,
+      "inputs": [
+        {
+          "name": "data",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "system_evaluation"
+                }
+              ]
+            },
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "system_evaluation_result_type",
+                  "value": "System_Evaluation_Result_Closed_Trade"
+                }
+              ]
+            },
+/* Not all trades are winning trades, so filter on the presence of the trade profit tag. */
+            {
+              "Case": "Name",
+              "Fields": [
+                "closed_trade_state_closed_equity_profit"
+              ],
+            },
+          ]
+        }
+      ],
+      "float_parameters": {},
+      "string_parameters": {
+/* Break profits down as follows:
+1. System permutation.
+2. Future name.
+3. Long or short position.
+4. Position name.
+*/
+        "layers": "system_permutation_data,future_name,closed_trade_state_position_long_or_short,closed_trade_state_position_name",
+/* Break system evaluation results down according to the profit on each trade. */
+        "value_to_extract": "closed_trade_state_closed_equity_profit"
+      },
+    },
+    {
+/* This time, break down only the losses. */
+      "name": "trade_breakdown_3",
+      "output_data_save_file_name": null,
+      "predefined_transform_type": "trade_breakdown",
+      "evaluation_order": 1,
+      "inputs": [
+        {
+          "name": "data",
+          "filters": [
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "last_transform_applied",
+                  "value": "system_evaluation"
+                }
+              ]
+            },
+            {
+              "Case": "Name_Value",
+              "Fields": [
+                {
+                  "name": "system_evaluation_result_type",
+                  "value": "System_Evaluation_Result_Closed_Trade"
+                }
+              ]
+            },
+/* Not all trades are losing trades, so filter on the presence of the trade loss tag. */
+            {
+              "Case": "Name",
+              "Fields": [
+                "closed_trade_state_closed_equity_loss"
+              ],
+            },
+          ]
+        }
+      ],
+      "float_parameters": {},
+      "string_parameters": {
+/* Break losses down as follows:
+1. System permutation.
+2. Future name.
+3. Long or short position.
+4. Position name.
+*/
+        "layers": "system_permutation_data,future_name,closed_trade_state_position_long_or_short,closed_trade_state_position_name",
+/* Break system evaluation results down according to the loss on each trade. */
+        "value_to_extract": "closed_trade_state_closed_equity_loss"
+      },
+    },
+  ],
+/* Show the results of the post system evaluation transforms in the following order. */
+  "show_post_system_evaluation_transform_results": [
+    "final_equity_string",
+    "compound_annual_growth_rate_string",
+    "periodic_return_string",
+    "largest_drawdown_string",
+    "trade_breakdown_string",
+  ],
+}

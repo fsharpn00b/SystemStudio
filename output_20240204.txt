@@ -1,0 +1,4727 @@
+Permutation ID: 1
+
+final_equity_string: 815,278,875.00 (19991213 12:00:00)
+compound_annual_growth_rate_string: 30.99%
+periodic_return_string: 
+Year: 1975
+
+Starting equity:            1,000,000.00
+Ending equity:              1,204,925.00
+Equity change:                204,925.00
+Equity change (%):                 20.49
+
+Month: 2
+
+Starting equity:            1,000,000.00
+Ending equity:              1,000,000.00
+Equity change:                      0.00
+Equity change (%):                  0.00
+
+Month: 3
+
+Starting equity:            1,000,000.00
+Ending equity:              1,012,612.50
+Equity change:                 12,612.50
+Equity change (%):                  1.26
+
+Month: 4
+
+Starting equity:            1,012,612.50
+Ending equity:              1,036,412.50
+Equity change:                 23,800.00
+Equity change (%):                  2.35
+
+Month: 5
+
+Starting equity:            1,036,412.50
+Ending equity:                975,912.50
+Equity change:                -60,500.00
+Equity change (%):                 -5.84
+
+Month: 6
+
+Starting equity:              975,912.50
+Ending equity:                975,912.50
+Equity change:                      0.00
+Equity change (%):                  0.00
+
+Month: 7
+
+Starting equity:              975,912.50
+Ending equity:              1,336,175.00
+Equity change:                360,262.50
+Equity change (%):                 36.92
+
+Month: 8
+
+Starting equity:            1,336,175.00
+Ending equity:              1,271,425.00
+Equity change:                -64,750.00
+Equity change (%):                 -4.85
+
+Month: 9
+
+Starting equity:            1,271,425.00
+Ending equity:              1,238,637.50
+Equity change:                -32,787.50
+Equity change (%):                 -2.58
+
+Month: 10
+
+Starting equity:            1,238,637.50
+Ending equity:              1,268,662.50
+Equity change:                 30,025.00
+Equity change (%):                  2.42
+
+Month: 11
+
+Starting equity:            1,268,662.50
+Ending equity:              1,195,000.00
+Equity change:                -73,662.50
+Equity change (%):                 -5.81
+
+Month: 12
+
+Starting equity:            1,195,000.00
+Ending equity:              1,204,925.00
+Equity change:                  9,925.00
+Equity change (%):                  0.83
+
+Year: 1976
+
+Starting equity:            1,204,925.00
+Ending equity:              1,124,050.00
+Equity change:                -80,875.00
+Equity change (%):                 -6.71
+
+Month: 1
+
+Starting equity:            1,204,925.00
+Ending equity:              1,235,437.50
+Equity change:                 30,512.50
+Equity change (%):                  2.53
+
+Month: 2
+
+Starting equity:            1,235,437.50
+Ending equity:              1,216,025.00
+Equity change:                -19,412.50
+Equity change (%):                 -1.57
+
+Month: 3
+
+Starting equity:            1,216,025.00
+Ending equity:              1,227,375.00
+Equity change:                 11,350.00
+Equity change (%):                  0.93
+
+Month: 4
+
+Starting equity:            1,227,375.00
+Ending equity:              1,246,300.00
+Equity change:                 18,925.00
+Equity change (%):                  1.54
+
+Month: 5
+
+Starting equity:            1,246,300.00
+Ending equity:              1,251,812.50
+Equity change:                  5,512.50
+Equity change (%):                  0.44
+
+Month: 6
+
+Starting equity:            1,251,812.50
+Ending equity:              1,162,600.00
+Equity change:                -89,212.50
+Equity change (%):                 -7.13
+
+Month: 7
+
+Starting equity:            1,162,600.00
+Ending equity:              1,143,375.00
+Equity change:                -19,225.00
+Equity change (%):                 -1.65
+
+Month: 8
+
+Starting equity:            1,143,375.00
+Ending equity:              1,153,737.50
+Equity change:                 10,362.50
+Equity change (%):                  0.91
+
+Month: 9
+
+Starting equity:            1,153,737.50
+Ending equity:              1,145,250.00
+Equity change:                 -8,487.50
+Equity change (%):                 -0.74
+
+Month: 10
+
+Starting equity:            1,145,250.00
+Ending equity:              1,149,550.00
+Equity change:                  4,300.00
+Equity change (%):                  0.38
+
+Month: 11
+
+Starting equity:            1,149,550.00
+Ending equity:              1,128,150.00
+Equity change:                -21,400.00
+Equity change (%):                 -1.86
+
+Month: 12
+
+Starting equity:            1,128,150.00
+Ending equity:              1,124,050.00
+Equity change:                 -4,100.00
+Equity change (%):                 -0.36
+
+Year: 1977
+
+Starting equity:            1,124,050.00
+Ending equity:              3,913,575.00
+Equity change:              2,789,525.00
+Equity change (%):                248.17
+
+Month: 1
+
+Starting equity:            1,124,050.00
+Ending equity:              1,223,462.50
+Equity change:                 99,412.50
+Equity change (%):                  8.84
+
+Month: 2
+
+Starting equity:            1,223,462.50
+Ending equity:              1,242,800.00
+Equity change:                 19,337.50
+Equity change (%):                  1.58
+
+Month: 3
+
+Starting equity:            1,242,800.00
+Ending equity:              1,206,850.00
+Equity change:                -35,950.00
+Equity change (%):                 -2.89
+
+Month: 4
+
+Starting equity:            1,206,850.00
+Ending equity:              1,063,137.50
+Equity change:               -143,712.50
+Equity change (%):                -11.91
+
+Month: 5
+
+Starting equity:            1,063,137.50
+Ending equity:              1,069,150.00
+Equity change:                  6,012.50
+Equity change (%):                  0.57
+
+Month: 6
+
+Starting equity:            1,069,150.00
+Ending equity:              1,186,425.00
+Equity change:                117,275.00
+Equity change (%):                 10.97
+
+Month: 7
+
+Starting equity:            1,186,425.00
+Ending equity:              1,222,375.00
+Equity change:                 35,950.00
+Equity change (%):                  3.03
+
+Month: 8
+
+Starting equity:            1,222,375.00
+Ending equity:              1,140,112.50
+Equity change:                -82,262.50
+Equity change (%):                 -6.73
+
+Month: 9
+
+Starting equity:            1,140,112.50
+Ending equity:              1,470,300.00
+Equity change:                330,187.50
+Equity change (%):                 28.96
+
+Month: 10
+
+Starting equity:            1,470,300.00
+Ending equity:              2,879,375.00
+Equity change:              1,409,075.00
+Equity change (%):                 95.84
+
+Month: 11
+
+Starting equity:            2,879,375.00
+Ending equity:              2,990,987.50
+Equity change:                111,612.50
+Equity change (%):                  3.88
+
+Month: 12
+
+Starting equity:            2,990,987.50
+Ending equity:              3,913,575.00
+Equity change:                922,587.50
+Equity change (%):                 30.85
+
+Year: 1978
+
+Starting equity:            3,913,575.00
+Ending equity:              9,358,462.50
+Equity change:              5,444,887.50
+Equity change (%):                139.13
+
+Month: 1
+
+Starting equity:            3,913,575.00
+Ending equity:              3,704,725.00
+Equity change:               -208,850.00
+Equity change (%):                 -5.34
+
+Month: 2
+
+Starting equity:            3,704,725.00
+Ending equity:              4,285,187.50
+Equity change:                580,462.50
+Equity change (%):                 15.67
+
+Month: 3
+
+Starting equity:            4,285,187.50
+Ending equity:              7,227,537.50
+Equity change:              2,942,350.00
+Equity change (%):                 68.66
+
+Month: 4
+
+Starting equity:            7,227,537.50
+Ending equity:              5,533,075.00
+Equity change:             -1,694,462.50
+Equity change (%):                -23.44
+
+Month: 5
+
+Starting equity:            5,533,075.00
+Ending equity:              5,362,562.50
+Equity change:               -170,512.50
+Equity change (%):                 -3.08
+
+Month: 6
+
+Starting equity:            5,362,562.50
+Ending equity:              7,869,200.00
+Equity change:              2,506,637.50
+Equity change (%):                 46.74
+
+Month: 7
+
+Starting equity:            7,869,200.00
+Ending equity:             12,042,462.50
+Equity change:              4,173,262.50
+Equity change (%):                 53.03
+
+Month: 8
+
+Starting equity:           12,042,462.50
+Ending equity:             11,167,250.00
+Equity change:               -875,212.50
+Equity change (%):                 -7.27
+
+Month: 9
+
+Starting equity:           11,167,250.00
+Ending equity:             11,754,925.00
+Equity change:                587,675.00
+Equity change (%):                  5.26
+
+Month: 10
+
+Starting equity:           11,754,925.00
+Ending equity:             12,370,737.50
+Equity change:                615,812.50
+Equity change (%):                  5.24
+
+Month: 11
+
+Starting equity:           12,370,737.50
+Ending equity:              9,440,512.50
+Equity change:             -2,930,225.00
+Equity change (%):                -23.69
+
+Month: 12
+
+Starting equity:            9,440,512.50
+Ending equity:              9,358,462.50
+Equity change:                -82,050.00
+Equity change (%):                 -0.87
+
+Year: 1979
+
+Starting equity:            9,358,462.50
+Ending equity:             17,029,762.50
+Equity change:              7,671,300.00
+Equity change (%):                 81.97
+
+Month: 1
+
+Starting equity:            9,358,462.50
+Ending equity:              9,080,562.50
+Equity change:               -277,900.00
+Equity change (%):                 -2.97
+
+Month: 2
+
+Starting equity:            9,080,562.50
+Ending equity:              8,040,100.00
+Equity change:             -1,040,462.50
+Equity change (%):                -11.46
+
+Month: 3
+
+Starting equity:            8,040,100.00
+Ending equity:              8,742,650.00
+Equity change:                702,550.00
+Equity change (%):                  8.74
+
+Month: 4
+
+Starting equity:            8,742,650.00
+Ending equity:             11,469,762.50
+Equity change:              2,727,112.50
+Equity change (%):                 31.19
+
+Month: 5
+
+Starting equity:           11,469,762.50
+Ending equity:             11,502,475.00
+Equity change:                 32,712.50
+Equity change (%):                  0.29
+
+Month: 6
+
+Starting equity:           11,502,475.00
+Ending equity:             13,241,575.00
+Equity change:              1,739,100.00
+Equity change (%):                 15.12
+
+Month: 7
+
+Starting equity:           13,241,575.00
+Ending equity:             12,364,375.00
+Equity change:               -877,200.00
+Equity change (%):                 -6.62
+
+Month: 8
+
+Starting equity:           12,364,375.00
+Ending equity:             12,580,587.50
+Equity change:                216,212.50
+Equity change (%):                  1.75
+
+Month: 9
+
+Starting equity:           12,580,587.50
+Ending equity:             16,522,062.50
+Equity change:              3,941,475.00
+Equity change (%):                 31.33
+
+Month: 10
+
+Starting equity:           16,522,062.50
+Ending equity:             14,883,737.50
+Equity change:             -1,638,325.00
+Equity change (%):                 -9.92
+
+Month: 11
+
+Starting equity:           14,883,737.50
+Ending equity:             19,415,562.50
+Equity change:              4,531,825.00
+Equity change (%):                 30.45
+
+Month: 12
+
+Starting equity:           19,415,562.50
+Ending equity:             17,029,762.50
+Equity change:             -2,385,800.00
+Equity change (%):                -12.29
+
+Year: 1980
+
+Starting equity:           17,029,762.50
+Ending equity:             19,416,937.50
+Equity change:              2,387,175.00
+Equity change (%):                 14.02
+
+Month: 1
+
+Starting equity:           17,029,762.50
+Ending equity:             17,000,025.00
+Equity change:                -29,737.50
+Equity change (%):                 -0.17
+
+Month: 2
+
+Starting equity:           17,000,025.00
+Ending equity:             18,769,612.50
+Equity change:              1,769,587.50
+Equity change (%):                 10.41
+
+Month: 3
+
+Starting equity:           18,769,612.50
+Ending equity:             24,932,275.00
+Equity change:              6,162,662.50
+Equity change (%):                 32.83
+
+Month: 4
+
+Starting equity:           24,932,275.00
+Ending equity:             17,422,275.00
+Equity change:             -7,510,000.00
+Equity change (%):                -30.12
+
+Month: 5
+
+Starting equity:           17,422,275.00
+Ending equity:             19,345,050.00
+Equity change:              1,922,775.00
+Equity change (%):                 11.04
+
+Month: 6
+
+Starting equity:           19,345,050.00
+Ending equity:             19,649,800.00
+Equity change:                304,750.00
+Equity change (%):                  1.58
+
+Month: 7
+
+Starting equity:           19,649,800.00
+Ending equity:             20,300,812.50
+Equity change:                651,012.50
+Equity change (%):                  3.31
+
+Month: 8
+
+Starting equity:           20,300,812.50
+Ending equity:             16,330,200.00
+Equity change:             -3,970,612.50
+Equity change (%):                -19.56
+
+Month: 9
+
+Starting equity:           16,330,200.00
+Ending equity:             15,308,950.00
+Equity change:             -1,021,250.00
+Equity change (%):                 -6.25
+
+Month: 10
+
+Starting equity:           15,308,950.00
+Ending equity:             16,674,087.50
+Equity change:              1,365,137.50
+Equity change (%):                  8.92
+
+Month: 11
+
+Starting equity:           16,674,087.50
+Ending equity:             19,248,625.00
+Equity change:              2,574,537.50
+Equity change (%):                 15.44
+
+Month: 12
+
+Starting equity:           19,248,625.00
+Ending equity:             19,416,937.50
+Equity change:                168,312.50
+Equity change (%):                  0.87
+
+Year: 1981
+
+Starting equity:           19,416,937.50
+Ending equity:             30,826,262.50
+Equity change:             11,409,325.00
+Equity change (%):                 58.76
+
+Month: 1
+
+Starting equity:           19,416,937.50
+Ending equity:             20,187,687.50
+Equity change:                770,750.00
+Equity change (%):                  3.97
+
+Month: 2
+
+Starting equity:           20,187,687.50
+Ending equity:             25,353,025.00
+Equity change:              5,165,337.50
+Equity change (%):                 25.59
+
+Month: 3
+
+Starting equity:           25,353,025.00
+Ending equity:             21,116,550.00
+Equity change:             -4,236,475.00
+Equity change (%):                -16.71
+
+Month: 4
+
+Starting equity:           21,116,550.00
+Ending equity:             22,713,012.50
+Equity change:              1,596,462.50
+Equity change (%):                  7.56
+
+Month: 5
+
+Starting equity:           22,713,012.50
+Ending equity:             25,428,912.50
+Equity change:              2,715,900.00
+Equity change (%):                 11.96
+
+Month: 6
+
+Starting equity:           25,428,912.50
+Ending equity:             25,115,887.50
+Equity change:               -313,025.00
+Equity change (%):                 -1.23
+
+Month: 7
+
+Starting equity:           25,115,887.50
+Ending equity:             33,742,400.00
+Equity change:              8,626,512.50
+Equity change (%):                 34.35
+
+Month: 8
+
+Starting equity:           33,742,400.00
+Ending equity:             26,444,737.50
+Equity change:             -7,297,662.50
+Equity change (%):                -21.63
+
+Month: 9
+
+Starting equity:           26,444,737.50
+Ending equity:             25,899,812.50
+Equity change:               -544,925.00
+Equity change (%):                 -2.06
+
+Month: 10
+
+Starting equity:           25,899,812.50
+Ending equity:             31,597,150.00
+Equity change:              5,697,337.50
+Equity change (%):                 22.00
+
+Month: 11
+
+Starting equity:           31,597,150.00
+Ending equity:             33,472,775.00
+Equity change:              1,875,625.00
+Equity change (%):                  5.94
+
+Month: 12
+
+Starting equity:           33,472,775.00
+Ending equity:             30,826,262.50
+Equity change:             -2,646,512.50
+Equity change (%):                 -7.91
+
+Year: 1982
+
+Starting equity:           30,826,262.50
+Ending equity:             42,055,175.00
+Equity change:             11,228,912.50
+Equity change (%):                 36.43
+
+Month: 1
+
+Starting equity:           30,826,262.50
+Ending equity:             34,987,000.00
+Equity change:              4,160,737.50
+Equity change (%):                 13.50
+
+Month: 2
+
+Starting equity:           34,987,000.00
+Ending equity:             40,742,375.00
+Equity change:              5,755,375.00
+Equity change (%):                 16.45
+
+Month: 3
+
+Starting equity:           40,742,375.00
+Ending equity:             39,050,475.00
+Equity change:             -1,691,900.00
+Equity change (%):                 -4.15
+
+Month: 4
+
+Starting equity:           39,050,475.00
+Ending equity:             39,104,850.00
+Equity change:                 54,375.00
+Equity change (%):                  0.14
+
+Month: 5
+
+Starting equity:           39,104,850.00
+Ending equity:             35,610,912.50
+Equity change:             -3,493,937.50
+Equity change (%):                 -8.93
+
+Month: 6
+
+Starting equity:           35,610,912.50
+Ending equity:             39,607,025.00
+Equity change:              3,996,112.50
+Equity change (%):                 11.22
+
+Month: 7
+
+Starting equity:           39,607,025.00
+Ending equity:             36,319,525.00
+Equity change:             -3,287,500.00
+Equity change (%):                 -8.30
+
+Month: 8
+
+Starting equity:           36,319,525.00
+Ending equity:             38,563,487.50
+Equity change:              2,243,962.50
+Equity change (%):                  6.18
+
+Month: 9
+
+Starting equity:           38,563,487.50
+Ending equity:             38,767,687.50
+Equity change:                204,200.00
+Equity change (%):                  0.53
+
+Month: 10
+
+Starting equity:           38,767,687.50
+Ending equity:             36,512,812.50
+Equity change:             -2,254,875.00
+Equity change (%):                 -5.82
+
+Month: 11
+
+Starting equity:           36,512,812.50
+Ending equity:             37,176,625.00
+Equity change:                663,812.50
+Equity change (%):                  1.82
+
+Month: 12
+
+Starting equity:           37,176,625.00
+Ending equity:             42,055,175.00
+Equity change:              4,878,550.00
+Equity change (%):                 13.12
+
+Year: 1983
+
+Starting equity:           42,055,175.00
+Ending equity:             35,136,412.50
+Equity change:             -6,918,762.50
+Equity change (%):                -16.45
+
+Month: 1
+
+Starting equity:           42,055,175.00
+Ending equity:             37,333,725.00
+Equity change:             -4,721,450.00
+Equity change (%):                -11.23
+
+Month: 2
+
+Starting equity:           37,333,725.00
+Ending equity:             35,413,987.50
+Equity change:             -1,919,737.50
+Equity change (%):                 -5.14
+
+Month: 3
+
+Starting equity:           35,413,987.50
+Ending equity:             35,355,387.50
+Equity change:                -58,600.00
+Equity change (%):                 -0.17
+
+Month: 4
+
+Starting equity:           35,355,387.50
+Ending equity:             34,753,937.50
+Equity change:               -601,450.00
+Equity change (%):                 -1.70
+
+Month: 5
+
+Starting equity:           34,753,937.50
+Ending equity:             32,245,012.50
+Equity change:             -2,508,925.00
+Equity change (%):                 -7.22
+
+Month: 6
+
+Starting equity:           32,245,012.50
+Ending equity:             29,562,762.50
+Equity change:             -2,682,250.00
+Equity change (%):                 -8.32
+
+Month: 7
+
+Starting equity:           29,562,762.50
+Ending equity:             29,694,362.50
+Equity change:                131,600.00
+Equity change (%):                  0.45
+
+Month: 8
+
+Starting equity:           29,694,362.50
+Ending equity:             31,320,037.50
+Equity change:              1,625,675.00
+Equity change (%):                  5.47
+
+Month: 9
+
+Starting equity:           31,320,037.50
+Ending equity:             39,074,375.00
+Equity change:              7,754,337.50
+Equity change (%):                 24.76
+
+Month: 10
+
+Starting equity:           39,074,375.00
+Ending equity:             33,778,387.50
+Equity change:             -5,295,987.50
+Equity change (%):                -13.55
+
+Month: 11
+
+Starting equity:           33,778,387.50
+Ending equity:             34,385,912.50
+Equity change:                607,525.00
+Equity change (%):                  1.80
+
+Month: 12
+
+Starting equity:           34,385,912.50
+Ending equity:             35,136,412.50
+Equity change:                750,500.00
+Equity change (%):                  2.18
+
+Year: 1984
+
+Starting equity:           35,136,412.50
+Ending equity:             42,647,700.00
+Equity change:              7,511,287.50
+Equity change (%):                 21.38
+
+Month: 1
+
+Starting equity:           35,136,412.50
+Ending equity:             33,814,075.00
+Equity change:             -1,322,337.50
+Equity change (%):                 -3.76
+
+Month: 2
+
+Starting equity:           33,814,075.00
+Ending equity:             32,731,737.50
+Equity change:             -1,082,337.50
+Equity change (%):                 -3.20
+
+Month: 3
+
+Starting equity:           32,731,737.50
+Ending equity:             30,670,537.50
+Equity change:             -2,061,200.00
+Equity change (%):                 -6.30
+
+Month: 4
+
+Starting equity:           30,670,537.50
+Ending equity:             34,991,125.00
+Equity change:              4,320,587.50
+Equity change (%):                 14.09
+
+Month: 5
+
+Starting equity:           34,991,125.00
+Ending equity:             37,831,225.00
+Equity change:              2,840,100.00
+Equity change (%):                  8.12
+
+Month: 6
+
+Starting equity:           37,831,225.00
+Ending equity:             38,120,650.00
+Equity change:                289,425.00
+Equity change (%):                  0.77
+
+Month: 7
+
+Starting equity:           38,120,650.00
+Ending equity:             50,856,637.50
+Equity change:             12,735,987.50
+Equity change (%):                 33.41
+
+Month: 8
+
+Starting equity:           50,856,637.50
+Ending equity:             45,538,637.50
+Equity change:             -5,318,000.00
+Equity change (%):                -10.46
+
+Month: 9
+
+Starting equity:           45,538,637.50
+Ending equity:             46,221,925.00
+Equity change:                683,287.50
+Equity change (%):                  1.50
+
+Month: 10
+
+Starting equity:           46,221,925.00
+Ending equity:             44,936,862.50
+Equity change:             -1,285,062.50
+Equity change (%):                 -2.78
+
+Month: 11
+
+Starting equity:           44,936,862.50
+Ending equity:             42,247,562.50
+Equity change:             -2,689,300.00
+Equity change (%):                 -5.98
+
+Month: 12
+
+Starting equity:           42,247,562.50
+Ending equity:             42,647,700.00
+Equity change:                400,137.50
+Equity change (%):                  0.95
+
+Year: 1985
+
+Starting equity:           42,647,700.00
+Ending equity:             80,297,812.50
+Equity change:             37,650,112.50
+Equity change (%):                 88.28
+
+Month: 1
+
+Starting equity:           42,647,700.00
+Ending equity:             49,485,137.50
+Equity change:              6,837,437.50
+Equity change (%):                 16.03
+
+Month: 2
+
+Starting equity:           49,485,137.50
+Ending equity:             64,540,362.50
+Equity change:             15,055,225.00
+Equity change (%):                 30.42
+
+Month: 3
+
+Starting equity:           64,540,362.50
+Ending equity:             73,730,225.00
+Equity change:              9,189,862.50
+Equity change (%):                 14.24
+
+Month: 4
+
+Starting equity:           73,730,225.00
+Ending equity:             70,991,300.00
+Equity change:             -2,738,925.00
+Equity change (%):                 -3.71
+
+Month: 5
+
+Starting equity:           70,991,300.00
+Ending equity:             72,744,025.00
+Equity change:              1,752,725.00
+Equity change (%):                  2.47
+
+Month: 6
+
+Starting equity:           72,744,025.00
+Ending equity:             71,272,275.00
+Equity change:             -1,471,750.00
+Equity change (%):                 -2.02
+
+Month: 7
+
+Starting equity:           71,272,275.00
+Ending equity:             98,242,637.50
+Equity change:             26,970,362.50
+Equity change (%):                 37.84
+
+Month: 8
+
+Starting equity:           98,242,637.50
+Ending equity:             85,823,025.00
+Equity change:            -12,419,612.50
+Equity change (%):                -12.64
+
+Month: 9
+
+Starting equity:           85,823,025.00
+Ending equity:             72,838,825.00
+Equity change:            -12,984,200.00
+Equity change (%):                -15.13
+
+Month: 10
+
+Starting equity:           72,838,825.00
+Ending equity:             75,962,650.00
+Equity change:              3,123,825.00
+Equity change (%):                  4.29
+
+Month: 11
+
+Starting equity:           75,962,650.00
+Ending equity:             89,740,587.50
+Equity change:             13,777,937.50
+Equity change (%):                 18.14
+
+Month: 12
+
+Starting equity:           89,740,587.50
+Ending equity:             80,297,812.50
+Equity change:             -9,442,775.00
+Equity change (%):                -10.52
+
+Year: 1986
+
+Starting equity:           80,297,812.50
+Ending equity:             88,256,725.00
+Equity change:              7,958,912.50
+Equity change (%):                  9.91
+
+Month: 1
+
+Starting equity:           80,297,812.50
+Ending equity:             84,893,187.50
+Equity change:              4,595,375.00
+Equity change (%):                  5.72
+
+Month: 2
+
+Starting equity:           84,893,187.50
+Ending equity:            128,677,462.50
+Equity change:             43,784,275.00
+Equity change (%):                 51.58
+
+Month: 3
+
+Starting equity:          128,677,462.50
+Ending equity:            111,456,475.00
+Equity change:            -17,220,987.50
+Equity change (%):                -13.38
+
+Month: 4
+
+Starting equity:          111,456,475.00
+Ending equity:             96,289,300.00
+Equity change:            -15,167,175.00
+Equity change (%):                -13.61
+
+Month: 5
+
+Starting equity:           96,289,300.00
+Ending equity:             77,547,425.00
+Equity change:            -18,741,875.00
+Equity change (%):                -19.46
+
+Month: 6
+
+Starting equity:           77,547,425.00
+Ending equity:             74,111,112.50
+Equity change:             -3,436,312.50
+Equity change (%):                 -4.43
+
+Month: 7
+
+Starting equity:           74,111,112.50
+Ending equity:             97,771,725.00
+Equity change:             23,660,612.50
+Equity change (%):                 31.93
+
+Month: 8
+
+Starting equity:           97,771,725.00
+Ending equity:             98,167,212.50
+Equity change:                395,487.50
+Equity change (%):                  0.40
+
+Month: 9
+
+Starting equity:           98,167,212.50
+Ending equity:             88,698,687.50
+Equity change:             -9,468,525.00
+Equity change (%):                 -9.65
+
+Month: 10
+
+Starting equity:           88,698,687.50
+Ending equity:             99,446,275.00
+Equity change:             10,747,587.50
+Equity change (%):                 12.12
+
+Month: 11
+
+Starting equity:           99,446,275.00
+Ending equity:             89,228,562.50
+Equity change:            -10,217,712.50
+Equity change (%):                -10.27
+
+Month: 12
+
+Starting equity:           89,228,562.50
+Ending equity:             88,256,725.00
+Equity change:               -971,837.50
+Equity change (%):                 -1.09
+
+Year: 1987
+
+Starting equity:           88,256,725.00
+Ending equity:            174,215,100.00
+Equity change:             85,958,375.00
+Equity change (%):                 97.40
+
+Month: 1
+
+Starting equity:           88,256,725.00
+Ending equity:            107,369,875.00
+Equity change:             19,113,150.00
+Equity change (%):                 21.66
+
+Month: 2
+
+Starting equity:          107,369,875.00
+Ending equity:            103,985,600.00
+Equity change:             -3,384,275.00
+Equity change (%):                 -3.15
+
+Month: 3
+
+Starting equity:          103,985,600.00
+Ending equity:            102,688,187.50
+Equity change:             -1,297,412.50
+Equity change (%):                 -1.25
+
+Month: 4
+
+Starting equity:          102,688,187.50
+Ending equity:            146,533,800.00
+Equity change:             43,845,612.50
+Equity change (%):                 42.70
+
+Month: 5
+
+Starting equity:          146,533,800.00
+Ending equity:            108,434,612.50
+Equity change:            -38,099,187.50
+Equity change (%):                -26.00
+
+Month: 6
+
+Starting equity:          108,434,612.50
+Ending equity:            122,765,812.50
+Equity change:             14,331,200.00
+Equity change (%):                 13.22
+
+Month: 7
+
+Starting equity:          122,765,812.50
+Ending equity:            122,478,462.50
+Equity change:               -287,350.00
+Equity change (%):                 -0.23
+
+Month: 8
+
+Starting equity:          122,478,462.50
+Ending equity:            119,072,350.00
+Equity change:             -3,406,112.50
+Equity change (%):                 -2.78
+
+Month: 9
+
+Starting equity:          119,072,350.00
+Ending equity:            112,205,137.50
+Equity change:             -6,867,212.50
+Equity change (%):                 -5.77
+
+Month: 10
+
+Starting equity:          112,205,137.50
+Ending equity:            116,544,362.50
+Equity change:              4,339,225.00
+Equity change (%):                  3.87
+
+Month: 11
+
+Starting equity:          116,544,362.50
+Ending equity:            149,567,075.00
+Equity change:             33,022,712.50
+Equity change (%):                 28.33
+
+Month: 12
+
+Starting equity:          149,567,075.00
+Ending equity:            174,215,100.00
+Equity change:             24,648,025.00
+Equity change (%):                 16.48
+
+Year: 1988
+
+Starting equity:          174,215,100.00
+Ending equity:            211,458,250.00
+Equity change:             37,243,150.00
+Equity change (%):                 21.38
+
+Month: 1
+
+Starting equity:          174,215,100.00
+Ending equity:            120,476,612.50
+Equity change:            -53,738,487.50
+Equity change (%):                -30.85
+
+Month: 2
+
+Starting equity:          120,476,612.50
+Ending equity:            122,188,162.50
+Equity change:              1,711,550.00
+Equity change (%):                  1.42
+
+Month: 3
+
+Starting equity:          122,188,162.50
+Ending equity:            118,994,212.50
+Equity change:             -3,193,950.00
+Equity change (%):                 -2.61
+
+Month: 4
+
+Starting equity:          118,994,212.50
+Ending equity:            101,611,162.50
+Equity change:            -17,383,050.00
+Equity change (%):                -14.61
+
+Month: 5
+
+Starting equity:          101,611,162.50
+Ending equity:            112,552,237.50
+Equity change:             10,941,075.00
+Equity change (%):                 10.77
+
+Month: 6
+
+Starting equity:          112,552,237.50
+Ending equity:            131,434,887.50
+Equity change:             18,882,650.00
+Equity change (%):                 16.78
+
+Month: 7
+
+Starting equity:          131,434,887.50
+Ending equity:            138,878,975.00
+Equity change:              7,444,087.50
+Equity change (%):                  5.66
+
+Month: 8
+
+Starting equity:          138,878,975.00
+Ending equity:            149,981,950.00
+Equity change:             11,102,975.00
+Equity change (%):                  7.99
+
+Month: 9
+
+Starting equity:          149,981,950.00
+Ending equity:            139,674,037.50
+Equity change:            -10,307,912.50
+Equity change (%):                 -6.87
+
+Month: 10
+
+Starting equity:          139,674,037.50
+Ending equity:            190,938,087.50
+Equity change:             51,264,050.00
+Equity change (%):                 36.70
+
+Month: 11
+
+Starting equity:          190,938,087.50
+Ending equity:            238,748,950.00
+Equity change:             47,810,862.50
+Equity change (%):                 25.04
+
+Month: 12
+
+Starting equity:          238,748,950.00
+Ending equity:            211,458,250.00
+Equity change:            -27,290,700.00
+Equity change (%):                -11.43
+
+Year: 1989
+
+Starting equity:          211,458,250.00
+Ending equity:            363,664,137.50
+Equity change:            152,205,887.50
+Equity change (%):                 71.98
+
+Month: 1
+
+Starting equity:          211,458,250.00
+Ending equity:            254,309,462.50
+Equity change:             42,851,212.50
+Equity change (%):                 20.26
+
+Month: 2
+
+Starting equity:          254,309,462.50
+Ending equity:            208,679,050.00
+Equity change:            -45,630,412.50
+Equity change (%):                -17.94
+
+Month: 3
+
+Starting equity:          208,679,050.00
+Ending equity:            245,284,050.00
+Equity change:             36,605,000.00
+Equity change (%):                 17.54
+
+Month: 4
+
+Starting equity:          245,284,050.00
+Ending equity:            275,847,950.00
+Equity change:             30,563,900.00
+Equity change (%):                 12.46
+
+Month: 5
+
+Starting equity:          275,847,950.00
+Ending equity:            348,575,000.00
+Equity change:             72,727,050.00
+Equity change (%):                 26.36
+
+Month: 6
+
+Starting equity:          348,575,000.00
+Ending equity:            386,537,187.50
+Equity change:             37,962,187.50
+Equity change (%):                 10.89
+
+Month: 7
+
+Starting equity:          386,537,187.50
+Ending equity:            390,180,612.50
+Equity change:              3,643,425.00
+Equity change (%):                  0.94
+
+Month: 8
+
+Starting equity:          390,180,612.50
+Ending equity:            361,758,400.00
+Equity change:            -28,422,212.50
+Equity change (%):                 -7.28
+
+Month: 9
+
+Starting equity:          361,758,400.00
+Ending equity:            386,646,775.00
+Equity change:             24,888,375.00
+Equity change (%):                  6.88
+
+Month: 10
+
+Starting equity:          386,646,775.00
+Ending equity:            360,606,750.00
+Equity change:            -26,040,025.00
+Equity change (%):                 -6.73
+
+Month: 11
+
+Starting equity:          360,606,750.00
+Ending equity:            360,467,750.00
+Equity change:               -139,000.00
+Equity change (%):                 -0.04
+
+Month: 12
+
+Starting equity:          360,467,750.00
+Ending equity:            363,664,137.50
+Equity change:              3,196,387.50
+Equity change (%):                  0.89
+
+Year: 1990
+
+Starting equity:          363,664,137.50
+Ending equity:            390,028,500.00
+Equity change:             26,364,362.50
+Equity change (%):                  7.25
+
+Month: 1
+
+Starting equity:          363,664,137.50
+Ending equity:            363,049,712.50
+Equity change:               -614,425.00
+Equity change (%):                 -0.17
+
+Month: 2
+
+Starting equity:          363,049,712.50
+Ending equity:            357,451,512.50
+Equity change:             -5,598,200.00
+Equity change (%):                 -1.54
+
+Month: 3
+
+Starting equity:          357,451,512.50
+Ending equity:            409,284,162.50
+Equity change:             51,832,650.00
+Equity change (%):                 14.50
+
+Month: 4
+
+Starting equity:          409,284,162.50
+Ending equity:            412,500,462.50
+Equity change:              3,216,300.00
+Equity change (%):                  0.79
+
+Month: 5
+
+Starting equity:          412,500,462.50
+Ending equity:            371,849,987.50
+Equity change:            -40,650,475.00
+Equity change (%):                 -9.85
+
+Month: 6
+
+Starting equity:          371,849,987.50
+Ending equity:            351,590,025.00
+Equity change:            -20,259,962.50
+Equity change (%):                 -5.45
+
+Month: 7
+
+Starting equity:          351,590,025.00
+Ending equity:            389,068,225.00
+Equity change:             37,478,200.00
+Equity change (%):                 10.66
+
+Month: 8
+
+Starting equity:          389,068,225.00
+Ending equity:            426,294,037.50
+Equity change:             37,225,812.50
+Equity change (%):                  9.57
+
+Month: 9
+
+Starting equity:          426,294,037.50
+Ending equity:            426,983,862.50
+Equity change:                689,825.00
+Equity change (%):                  0.16
+
+Month: 10
+
+Starting equity:          426,983,862.50
+Ending equity:            437,110,512.50
+Equity change:             10,126,650.00
+Equity change (%):                  2.37
+
+Month: 11
+
+Starting equity:          437,110,512.50
+Ending equity:            394,191,100.00
+Equity change:            -42,919,412.50
+Equity change (%):                 -9.82
+
+Month: 12
+
+Starting equity:          394,191,100.00
+Ending equity:            390,028,500.00
+Equity change:             -4,162,600.00
+Equity change (%):                 -1.06
+
+Year: 1991
+
+Starting equity:          390,028,500.00
+Ending equity:            353,099,312.50
+Equity change:            -36,929,187.50
+Equity change (%):                 -9.47
+
+Month: 1
+
+Starting equity:          390,028,500.00
+Ending equity:            378,637,650.00
+Equity change:            -11,390,850.00
+Equity change (%):                 -2.92
+
+Month: 2
+
+Starting equity:          378,637,650.00
+Ending equity:            366,416,287.50
+Equity change:            -12,221,362.50
+Equity change (%):                 -3.23
+
+Month: 3
+
+Starting equity:          366,416,287.50
+Ending equity:            430,539,775.00
+Equity change:             64,123,487.50
+Equity change (%):                 17.50
+
+Month: 4
+
+Starting equity:          430,539,775.00
+Ending equity:            365,578,825.00
+Equity change:            -64,960,950.00
+Equity change (%):                -15.09
+
+Month: 5
+
+Starting equity:          365,578,825.00
+Ending equity:            354,820,125.00
+Equity change:            -10,758,700.00
+Equity change (%):                 -2.94
+
+Month: 6
+
+Starting equity:          354,820,125.00
+Ending equity:            357,106,075.00
+Equity change:              2,285,950.00
+Equity change (%):                  0.64
+
+Month: 7
+
+Starting equity:          357,106,075.00
+Ending equity:            341,961,012.50
+Equity change:            -15,145,062.50
+Equity change (%):                 -4.24
+
+Month: 8
+
+Starting equity:          341,961,012.50
+Ending equity:            332,799,312.50
+Equity change:             -9,161,700.00
+Equity change (%):                 -2.68
+
+Month: 9
+
+Starting equity:          332,799,312.50
+Ending equity:            351,003,225.00
+Equity change:             18,203,912.50
+Equity change (%):                  5.47
+
+Month: 10
+
+Starting equity:          351,003,225.00
+Ending equity:            330,203,200.00
+Equity change:            -20,800,025.00
+Equity change (%):                 -5.93
+
+Month: 11
+
+Starting equity:          330,203,200.00
+Ending equity:            327,042,825.00
+Equity change:             -3,160,375.00
+Equity change (%):                 -0.96
+
+Month: 12
+
+Starting equity:          327,042,825.00
+Ending equity:            353,099,312.50
+Equity change:             26,056,487.50
+Equity change (%):                  7.97
+
+Year: 1992
+
+Starting equity:          353,099,312.50
+Ending equity:            496,856,462.50
+Equity change:            143,757,150.00
+Equity change (%):                 40.71
+
+Month: 1
+
+Starting equity:          353,099,312.50
+Ending equity:            319,149,275.00
+Equity change:            -33,950,037.50
+Equity change (%):                 -9.61
+
+Month: 2
+
+Starting equity:          319,149,275.00
+Ending equity:            322,313,812.50
+Equity change:              3,164,537.50
+Equity change (%):                  0.99
+
+Month: 3
+
+Starting equity:          322,313,812.50
+Ending equity:            368,255,375.00
+Equity change:             45,941,562.50
+Equity change (%):                 14.25
+
+Month: 4
+
+Starting equity:          368,255,375.00
+Ending equity:            349,490,575.00
+Equity change:            -18,764,800.00
+Equity change (%):                 -5.10
+
+Month: 5
+
+Starting equity:          349,490,575.00
+Ending equity:            363,204,312.50
+Equity change:             13,713,737.50
+Equity change (%):                  3.92
+
+Month: 6
+
+Starting equity:          363,204,312.50
+Ending equity:            397,330,362.50
+Equity change:             34,126,050.00
+Equity change (%):                  9.40
+
+Month: 7
+
+Starting equity:          397,330,362.50
+Ending equity:            430,466,000.00
+Equity change:             33,135,637.50
+Equity change (%):                  8.34
+
+Month: 8
+
+Starting equity:          430,466,000.00
+Ending equity:            535,215,837.50
+Equity change:            104,749,837.50
+Equity change (%):                 24.33
+
+Month: 9
+
+Starting equity:          535,215,837.50
+Ending equity:            503,856,787.50
+Equity change:            -31,359,050.00
+Equity change (%):                 -5.86
+
+Month: 10
+
+Starting equity:          503,856,787.50
+Ending equity:            486,861,450.00
+Equity change:            -16,995,337.50
+Equity change (%):                 -3.37
+
+Month: 11
+
+Starting equity:          486,861,450.00
+Ending equity:            513,044,412.50
+Equity change:             26,182,962.50
+Equity change (%):                  5.38
+
+Month: 12
+
+Starting equity:          513,044,412.50
+Ending equity:            496,856,462.50
+Equity change:            -16,187,950.00
+Equity change (%):                 -3.16
+
+Year: 1993
+
+Starting equity:          496,856,462.50
+Ending equity:            575,956,012.50
+Equity change:             79,099,550.00
+Equity change (%):                 15.92
+
+Month: 1
+
+Starting equity:          496,856,462.50
+Ending equity:            475,240,475.00
+Equity change:            -21,615,987.50
+Equity change (%):                 -4.35
+
+Month: 2
+
+Starting equity:          475,240,475.00
+Ending equity:            481,094,675.00
+Equity change:              5,854,200.00
+Equity change (%):                  1.23
+
+Month: 3
+
+Starting equity:          481,094,675.00
+Ending equity:            494,099,775.00
+Equity change:             13,005,100.00
+Equity change (%):                  2.70
+
+Month: 4
+
+Starting equity:          494,099,775.00
+Ending equity:            550,691,750.00
+Equity change:             56,591,975.00
+Equity change (%):                 11.45
+
+Month: 5
+
+Starting equity:          550,691,750.00
+Ending equity:            605,477,212.50
+Equity change:             54,785,462.50
+Equity change (%):                  9.95
+
+Month: 6
+
+Starting equity:          605,477,212.50
+Ending equity:            589,812,800.00
+Equity change:            -15,664,412.50
+Equity change (%):                 -2.59
+
+Month: 7
+
+Starting equity:          589,812,800.00
+Ending equity:            586,498,850.00
+Equity change:             -3,313,950.00
+Equity change (%):                 -0.56
+
+Month: 8
+
+Starting equity:          586,498,850.00
+Ending equity:            580,791,900.00
+Equity change:             -5,706,950.00
+Equity change (%):                 -0.97
+
+Month: 9
+
+Starting equity:          580,791,900.00
+Ending equity:            599,069,175.00
+Equity change:             18,277,275.00
+Equity change (%):                  3.15
+
+Month: 10
+
+Starting equity:          599,069,175.00
+Ending equity:            617,866,887.50
+Equity change:             18,797,712.50
+Equity change (%):                  3.14
+
+Month: 11
+
+Starting equity:          617,866,887.50
+Ending equity:            603,207,737.50
+Equity change:            -14,659,150.00
+Equity change (%):                 -2.37
+
+Month: 12
+
+Starting equity:          603,207,737.50
+Ending equity:            575,956,012.50
+Equity change:            -27,251,725.00
+Equity change (%):                 -4.52
+
+Year: 1994
+
+Starting equity:          575,956,012.50
+Ending equity:            442,047,825.00
+Equity change:           -133,908,187.50
+Equity change (%):                -23.25
+
+Month: 1
+
+Starting equity:          575,956,012.50
+Ending equity:            558,299,100.00
+Equity change:            -17,656,912.50
+Equity change (%):                 -3.07
+
+Month: 2
+
+Starting equity:          558,299,100.00
+Ending equity:            580,729,412.50
+Equity change:             22,430,312.50
+Equity change (%):                  4.02
+
+Month: 3
+
+Starting equity:          580,729,412.50
+Ending equity:            547,220,337.50
+Equity change:            -33,509,075.00
+Equity change (%):                 -5.77
+
+Month: 4
+
+Starting equity:          547,220,337.50
+Ending equity:            535,643,175.00
+Equity change:            -11,577,162.50
+Equity change (%):                 -2.12
+
+Month: 5
+
+Starting equity:          535,643,175.00
+Ending equity:            501,372,750.00
+Equity change:            -34,270,425.00
+Equity change (%):                 -6.40
+
+Month: 6
+
+Starting equity:          501,372,750.00
+Ending equity:            544,371,412.50
+Equity change:             42,998,662.50
+Equity change (%):                  8.58
+
+Month: 7
+
+Starting equity:          544,371,412.50
+Ending equity:            536,502,500.00
+Equity change:             -7,868,912.50
+Equity change (%):                 -1.45
+
+Month: 8
+
+Starting equity:          536,502,500.00
+Ending equity:            468,503,950.00
+Equity change:            -67,998,550.00
+Equity change (%):                -12.67
+
+Month: 9
+
+Starting equity:          468,503,950.00
+Ending equity:            451,503,500.00
+Equity change:            -17,000,450.00
+Equity change (%):                 -3.63
+
+Month: 10
+
+Starting equity:          451,503,500.00
+Ending equity:            472,278,787.50
+Equity change:             20,775,287.50
+Equity change (%):                  4.60
+
+Month: 11
+
+Starting equity:          472,278,787.50
+Ending equity:            435,203,700.00
+Equity change:            -37,075,087.50
+Equity change (%):                 -7.85
+
+Month: 12
+
+Starting equity:          435,203,700.00
+Ending equity:            442,047,825.00
+Equity change:              6,844,125.00
+Equity change (%):                  1.57
+
+Year: 1995
+
+Starting equity:          442,047,825.00
+Ending equity:            678,206,400.00
+Equity change:            236,158,575.00
+Equity change (%):                 53.42
+
+Month: 1
+
+Starting equity:          442,047,825.00
+Ending equity:            426,186,050.00
+Equity change:            -15,861,775.00
+Equity change (%):                 -3.59
+
+Month: 2
+
+Starting equity:          426,186,050.00
+Ending equity:            430,073,587.50
+Equity change:              3,887,537.50
+Equity change (%):                  0.91
+
+Month: 3
+
+Starting equity:          430,073,587.50
+Ending equity:            632,011,025.00
+Equity change:            201,937,437.50
+Equity change (%):                 46.95
+
+Month: 4
+
+Starting equity:          632,011,025.00
+Ending equity:            663,066,000.00
+Equity change:             31,054,975.00
+Equity change (%):                  4.91
+
+Month: 5
+
+Starting equity:          663,066,000.00
+Ending equity:            496,121,650.00
+Equity change:           -166,944,350.00
+Equity change (%):                -25.18
+
+Month: 6
+
+Starting equity:          496,121,650.00
+Ending equity:            495,802,875.00
+Equity change:               -318,775.00
+Equity change (%):                 -0.06
+
+Month: 7
+
+Starting equity:          495,802,875.00
+Ending equity:            507,817,087.50
+Equity change:             12,014,212.50
+Equity change (%):                  2.42
+
+Month: 8
+
+Starting equity:          507,817,087.50
+Ending equity:            625,688,525.00
+Equity change:            117,871,437.50
+Equity change (%):                 23.21
+
+Month: 9
+
+Starting equity:          625,688,525.00
+Ending equity:            710,799,350.00
+Equity change:             85,110,825.00
+Equity change (%):                 13.60
+
+Month: 10
+
+Starting equity:          710,799,350.00
+Ending equity:            729,438,900.00
+Equity change:             18,639,550.00
+Equity change (%):                  2.62
+
+Month: 11
+
+Starting equity:          729,438,900.00
+Ending equity:            678,144,787.50
+Equity change:            -51,294,112.50
+Equity change (%):                 -7.03
+
+Month: 12
+
+Starting equity:          678,144,787.50
+Ending equity:            678,206,400.00
+Equity change:                 61,612.50
+Equity change (%):                  0.01
+
+Year: 1996
+
+Starting equity:          678,206,400.00
+Ending equity:            719,518,625.00
+Equity change:             41,312,225.00
+Equity change (%):                  6.09
+
+Month: 1
+
+Starting equity:          678,206,400.00
+Ending equity:            727,890,525.00
+Equity change:             49,684,125.00
+Equity change (%):                  7.33
+
+Month: 2
+
+Starting equity:          727,890,525.00
+Ending equity:            683,016,975.00
+Equity change:            -44,873,550.00
+Equity change (%):                 -6.16
+
+Month: 3
+
+Starting equity:          683,016,975.00
+Ending equity:            667,901,525.00
+Equity change:            -15,115,450.00
+Equity change (%):                 -2.21
+
+Month: 4
+
+Starting equity:          667,901,525.00
+Ending equity:            668,230,025.00
+Equity change:                328,500.00
+Equity change (%):                  0.05
+
+Month: 5
+
+Starting equity:          668,230,025.00
+Ending equity:            656,722,462.50
+Equity change:            -11,507,562.50
+Equity change (%):                 -1.72
+
+Month: 6
+
+Starting equity:          656,722,462.50
+Ending equity:            689,509,437.50
+Equity change:             32,786,975.00
+Equity change (%):                  4.99
+
+Month: 7
+
+Starting equity:          689,509,437.50
+Ending equity:            687,318,175.00
+Equity change:             -2,191,262.50
+Equity change (%):                 -0.32
+
+Month: 8
+
+Starting equity:          687,318,175.00
+Ending equity:            660,683,150.00
+Equity change:            -26,635,025.00
+Equity change (%):                 -3.88
+
+Month: 9
+
+Starting equity:          660,683,150.00
+Ending equity:            656,974,900.00
+Equity change:             -3,708,250.00
+Equity change (%):                 -0.56
+
+Month: 10
+
+Starting equity:          656,974,900.00
+Ending equity:            702,702,600.00
+Equity change:             45,727,700.00
+Equity change (%):                  6.96
+
+Month: 11
+
+Starting equity:          702,702,600.00
+Ending equity:            725,851,125.00
+Equity change:             23,148,525.00
+Equity change (%):                  3.29
+
+Month: 12
+
+Starting equity:          725,851,125.00
+Ending equity:            719,518,625.00
+Equity change:             -6,332,500.00
+Equity change (%):                 -0.87
+
+Year: 1997
+
+Starting equity:          719,518,625.00
+Ending equity:            913,972,012.50
+Equity change:            194,453,387.50
+Equity change (%):                 27.03
+
+Month: 1
+
+Starting equity:          719,518,625.00
+Ending equity:            824,034,862.50
+Equity change:            104,516,237.50
+Equity change (%):                 14.53
+
+Month: 2
+
+Starting equity:          824,034,862.50
+Ending equity:            847,954,112.50
+Equity change:             23,919,250.00
+Equity change (%):                  2.90
+
+Month: 3
+
+Starting equity:          847,954,112.50
+Ending equity:            842,633,712.50
+Equity change:             -5,320,400.00
+Equity change (%):                 -0.63
+
+Month: 4
+
+Starting equity:          842,633,712.50
+Ending equity:            826,945,725.00
+Equity change:            -15,687,987.50
+Equity change (%):                 -1.86
+
+Month: 5
+
+Starting equity:          826,945,725.00
+Ending equity:            790,079,912.50
+Equity change:            -36,865,812.50
+Equity change (%):                 -4.46
+
+Month: 6
+
+Starting equity:          790,079,912.50
+Ending equity:            794,329,450.00
+Equity change:              4,249,537.50
+Equity change (%):                  0.54
+
+Month: 7
+
+Starting equity:          794,329,450.00
+Ending equity:            854,491,912.50
+Equity change:             60,162,462.50
+Equity change (%):                  7.57
+
+Month: 8
+
+Starting equity:          854,491,912.50
+Ending equity:            847,518,337.50
+Equity change:             -6,973,575.00
+Equity change (%):                 -0.82
+
+Month: 9
+
+Starting equity:          847,518,337.50
+Ending equity:            802,759,587.50
+Equity change:            -44,758,750.00
+Equity change (%):                 -5.28
+
+Month: 10
+
+Starting equity:          802,759,587.50
+Ending equity:            795,358,262.50
+Equity change:             -7,401,325.00
+Equity change (%):                 -0.92
+
+Month: 11
+
+Starting equity:          795,358,262.50
+Ending equity:            925,075,687.50
+Equity change:            129,717,425.00
+Equity change (%):                 16.31
+
+Month: 12
+
+Starting equity:          925,075,687.50
+Ending equity:            913,972,012.50
+Equity change:            -11,103,675.00
+Equity change (%):                 -1.20
+
+Year: 1998
+
+Starting equity:          913,972,012.50
+Ending equity:            767,693,300.00
+Equity change:           -146,278,712.50
+Equity change (%):                -16.00
+
+Month: 1
+
+Starting equity:          913,972,012.50
+Ending equity:            879,723,925.00
+Equity change:            -34,248,087.50
+Equity change (%):                 -3.75
+
+Month: 2
+
+Starting equity:          879,723,925.00
+Ending equity:            848,105,800.00
+Equity change:            -31,618,125.00
+Equity change (%):                 -3.59
+
+Month: 3
+
+Starting equity:          848,105,800.00
+Ending equity:            901,132,912.50
+Equity change:             53,027,112.50
+Equity change (%):                  6.25
+
+Month: 4
+
+Starting equity:          901,132,912.50
+Ending equity:            855,999,212.50
+Equity change:            -45,133,700.00
+Equity change (%):                 -5.01
+
+Month: 5
+
+Starting equity:          855,999,212.50
+Ending equity:            892,270,850.00
+Equity change:             36,271,637.50
+Equity change (%):                  4.24
+
+Month: 6
+
+Starting equity:          892,270,850.00
+Ending equity:            872,070,087.50
+Equity change:            -20,200,762.50
+Equity change (%):                 -2.26
+
+Month: 7
+
+Starting equity:          872,070,087.50
+Ending equity:            862,378,300.00
+Equity change:             -9,691,787.50
+Equity change (%):                 -1.11
+
+Month: 8
+
+Starting equity:          862,378,300.00
+Ending equity:            786,683,275.00
+Equity change:            -75,695,025.00
+Equity change (%):                 -8.78
+
+Month: 9
+
+Starting equity:          786,683,275.00
+Ending equity:            817,190,012.50
+Equity change:             30,506,737.50
+Equity change (%):                  3.88
+
+Month: 10
+
+Starting equity:          817,190,012.50
+Ending equity:            888,085,125.00
+Equity change:             70,895,112.50
+Equity change (%):                  8.68
+
+Month: 11
+
+Starting equity:          888,085,125.00
+Ending equity:            795,064,262.50
+Equity change:            -93,020,862.50
+Equity change (%):                -10.47
+
+Month: 12
+
+Starting equity:          795,064,262.50
+Ending equity:            767,693,300.00
+Equity change:            -27,370,962.50
+Equity change (%):                 -3.44
+
+Year: 1999
+
+Starting equity:          767,693,300.00
+Ending equity:            815,278,875.00
+Equity change:             47,585,575.00
+Equity change (%):                  6.20
+
+Month: 1
+
+Starting equity:          767,693,300.00
+Ending equity:            742,847,737.50
+Equity change:            -24,845,562.50
+Equity change (%):                 -3.24
+
+Month: 2
+
+Starting equity:          742,847,737.50
+Ending equity:            758,968,162.50
+Equity change:             16,120,425.00
+Equity change (%):                  2.17
+
+Month: 3
+
+Starting equity:          758,968,162.50
+Ending equity:            762,416,587.50
+Equity change:              3,448,425.00
+Equity change (%):                  0.45
+
+Month: 4
+
+Starting equity:          762,416,587.50
+Ending equity:            777,734,312.50
+Equity change:             15,317,725.00
+Equity change (%):                  2.01
+
+Month: 5
+
+Starting equity:          777,734,312.50
+Ending equity:            772,128,175.00
+Equity change:             -5,606,137.50
+Equity change (%):                 -0.72
+
+Month: 6
+
+Starting equity:          772,128,175.00
+Ending equity:            755,940,587.50
+Equity change:            -16,187,587.50
+Equity change (%):                 -2.10
+
+Month: 7
+
+Starting equity:          755,940,587.50
+Ending equity:            770,334,100.00
+Equity change:             14,393,512.50
+Equity change (%):                  1.90
+
+Month: 8
+
+Starting equity:          770,334,100.00
+Ending equity:            796,502,362.50
+Equity change:             26,168,262.50
+Equity change (%):                  3.40
+
+Month: 9
+
+Starting equity:          796,502,362.50
+Ending equity:            847,717,625.00
+Equity change:             51,215,262.50
+Equity change (%):                  6.43
+
+Month: 10
+
+Starting equity:          847,717,625.00
+Ending equity:            821,275,250.00
+Equity change:            -26,442,375.00
+Equity change (%):                 -3.12
+
+Month: 11
+
+Starting equity:          821,275,250.00
+Ending equity:            818,941,850.00
+Equity change:             -2,333,400.00
+Equity change (%):                 -0.28
+
+Month: 12
+
+Starting equity:          818,941,850.00
+Ending equity:            815,278,875.00
+Equity change:             -3,662,975.00
+Equity change (%):                 -0.45
+
+
+largest_drawdown_string: 
+Percent:                          48.19%
+Start date:            19860227 12:00:00
+Low equity date:       19860623 12:00:00
+End date:              19870414 12:00:00
+High equity:              134,765,775.00
+Low equity:                69,817,350.00
+End reason:              New_High_Equity
+
+******
+
+Permutation ID: 2
+
+final_equity_string: 796,307,237.50 (19991213 12:00:00)
+compound_annual_growth_rate_string: 30.87%
+periodic_return_string: 
+Year: 1975
+
+Starting equity:            1,000,000.00
+Ending equity:              1,161,262.50
+Equity change:                161,262.50
+Equity change (%):                 16.13
+
+Month: 2
+
+Starting equity:            1,000,000.00
+Ending equity:              1,000,000.00
+Equity change:                      0.00
+Equity change (%):                  0.00
+
+Month: 3
+
+Starting equity:            1,000,000.00
+Ending equity:              1,002,762.50
+Equity change:                  2,762.50
+Equity change (%):                  0.28
+
+Month: 4
+
+Starting equity:            1,002,762.50
+Ending equity:              1,016,362.50
+Equity change:                 13,600.00
+Equity change (%):                  1.36
+
+Month: 5
+
+Starting equity:            1,016,362.50
+Ending equity:                970,287.50
+Equity change:                -46,075.00
+Equity change (%):                 -4.53
+
+Month: 6
+
+Starting equity:              970,287.50
+Ending equity:                957,200.00
+Equity change:                -13,087.50
+Equity change (%):                 -1.35
+
+Month: 7
+
+Starting equity:              957,200.00
+Ending equity:              1,303,612.50
+Equity change:                346,412.50
+Equity change (%):                 36.19
+
+Month: 8
+
+Starting equity:            1,303,612.50
+Ending equity:              1,240,487.50
+Equity change:                -63,125.00
+Equity change (%):                 -4.84
+
+Month: 9
+
+Starting equity:            1,240,487.50
+Ending equity:              1,208,137.50
+Equity change:                -32,350.00
+Equity change (%):                 -2.61
+
+Month: 10
+
+Starting equity:            1,208,137.50
+Ending equity:              1,237,687.50
+Equity change:                 29,550.00
+Equity change (%):                  2.45
+
+Month: 11
+
+Starting equity:            1,237,687.50
+Ending equity:              1,151,762.50
+Equity change:                -85,925.00
+Equity change (%):                 -6.94
+
+Month: 12
+
+Starting equity:            1,151,762.50
+Ending equity:              1,161,262.50
+Equity change:                  9,500.00
+Equity change (%):                  0.82
+
+Year: 1976
+
+Starting equity:            1,161,262.50
+Ending equity:              1,067,487.50
+Equity change:                -93,775.00
+Equity change (%):                 -8.08
+
+Month: 1
+
+Starting equity:            1,161,262.50
+Ending equity:              1,190,487.50
+Equity change:                 29,225.00
+Equity change (%):                  2.52
+
+Month: 2
+
+Starting equity:            1,190,487.50
+Ending equity:              1,171,887.50
+Equity change:                -18,600.00
+Equity change (%):                 -1.56
+
+Month: 3
+
+Starting equity:            1,171,887.50
+Ending equity:              1,175,112.50
+Equity change:                  3,225.00
+Equity change (%):                  0.28
+
+Month: 4
+
+Starting equity:            1,175,112.50
+Ending equity:              1,193,637.50
+Equity change:                 18,525.00
+Equity change (%):                  1.58
+
+Month: 5
+
+Starting equity:            1,193,637.50
+Ending equity:              1,194,450.00
+Equity change:                    812.50
+Equity change (%):                  0.07
+
+Month: 6
+
+Starting equity:            1,194,450.00
+Ending equity:              1,105,237.50
+Equity change:                -89,212.50
+Equity change (%):                 -7.47
+
+Month: 7
+
+Starting equity:            1,105,237.50
+Ending equity:              1,086,687.50
+Equity change:                -18,550.00
+Equity change (%):                 -1.68
+
+Month: 8
+
+Starting equity:            1,086,687.50
+Ending equity:              1,096,762.50
+Equity change:                 10,075.00
+Equity change (%):                  0.93
+
+Month: 9
+
+Starting equity:            1,096,762.50
+Ending equity:              1,088,275.00
+Equity change:                 -8,487.50
+Equity change (%):                 -0.77
+
+Month: 10
+
+Starting equity:            1,088,275.00
+Ending equity:              1,092,312.50
+Equity change:                  4,037.50
+Equity change (%):                  0.37
+
+Month: 11
+
+Starting equity:            1,092,312.50
+Ending equity:              1,071,587.50
+Equity change:                -20,725.00
+Equity change (%):                 -1.90
+
+Month: 12
+
+Starting equity:            1,071,587.50
+Ending equity:              1,067,487.50
+Equity change:                 -4,100.00
+Equity change (%):                 -0.38
+
+Year: 1977
+
+Starting equity:            1,067,487.50
+Ending equity:              3,813,875.00
+Equity change:              2,746,387.50
+Equity change (%):                257.28
+
+Month: 1
+
+Starting equity:            1,067,487.50
+Ending equity:              1,164,550.00
+Equity change:                 97,062.50
+Equity change (%):                  9.09
+
+Month: 2
+
+Starting equity:            1,164,550.00
+Ending equity:              1,184,400.00
+Equity change:                 19,850.00
+Equity change (%):                  1.70
+
+Month: 3
+
+Starting equity:            1,184,400.00
+Ending equity:              1,150,012.50
+Equity change:                -34,387.50
+Equity change (%):                 -2.90
+
+Month: 4
+
+Starting equity:            1,150,012.50
+Ending equity:              1,015,425.00
+Equity change:               -134,587.50
+Equity change (%):                -11.70
+
+Month: 5
+
+Starting equity:            1,015,425.00
+Ending equity:              1,022,075.00
+Equity change:                  6,650.00
+Equity change (%):                  0.65
+
+Month: 6
+
+Starting equity:            1,022,075.00
+Ending equity:              1,143,612.50
+Equity change:                121,537.50
+Equity change (%):                 11.89
+
+Month: 7
+
+Starting equity:            1,143,612.50
+Ending equity:              1,198,762.50
+Equity change:                 55,150.00
+Equity change (%):                  4.82
+
+Month: 8
+
+Starting equity:            1,198,762.50
+Ending equity:              1,114,925.00
+Equity change:                -83,837.50
+Equity change (%):                 -6.99
+
+Month: 9
+
+Starting equity:            1,114,925.00
+Ending equity:              1,437,487.50
+Equity change:                322,562.50
+Equity change (%):                 28.93
+
+Month: 10
+
+Starting equity:            1,437,487.50
+Ending equity:              2,811,300.00
+Equity change:              1,373,812.50
+Equity change (%):                 95.57
+
+Month: 11
+
+Starting equity:            2,811,300.00
+Ending equity:              2,919,162.50
+Equity change:                107,862.50
+Equity change (%):                  3.84
+
+Month: 12
+
+Starting equity:            2,919,162.50
+Ending equity:              3,813,875.00
+Equity change:                894,712.50
+Equity change (%):                 30.65
+
+Year: 1978
+
+Starting equity:            3,813,875.00
+Ending equity:              9,128,262.50
+Equity change:              5,314,387.50
+Equity change (%):                139.34
+
+Month: 1
+
+Starting equity:            3,813,875.00
+Ending equity:              3,611,725.00
+Equity change:               -202,150.00
+Equity change (%):                 -5.30
+
+Month: 2
+
+Starting equity:            3,611,725.00
+Ending equity:              4,176,262.50
+Equity change:                564,537.50
+Equity change (%):                 15.63
+
+Month: 3
+
+Starting equity:            4,176,262.50
+Ending equity:              7,039,287.50
+Equity change:              2,863,025.00
+Equity change (%):                 68.55
+
+Month: 4
+
+Starting equity:            7,039,287.50
+Ending equity:              5,390,387.50
+Equity change:             -1,648,900.00
+Equity change (%):                -23.42
+
+Month: 5
+
+Starting equity:            5,390,387.50
+Ending equity:              5,230,412.50
+Equity change:               -159,975.00
+Equity change (%):                 -2.97
+
+Month: 6
+
+Starting equity:            5,230,412.50
+Ending equity:              7,673,500.00
+Equity change:              2,443,087.50
+Equity change (%):                 46.71
+
+Month: 7
+
+Starting equity:            7,673,500.00
+Ending equity:             11,728,187.50
+Equity change:              4,054,687.50
+Equity change (%):                 52.84
+
+Month: 8
+
+Starting equity:           11,728,187.50
+Ending equity:             10,874,537.50
+Equity change:               -853,650.00
+Equity change (%):                 -7.28
+
+Month: 9
+
+Starting equity:           10,874,537.50
+Ending equity:             11,442,112.50
+Equity change:                567,575.00
+Equity change (%):                  5.22
+
+Month: 10
+
+Starting equity:           11,442,112.50
+Ending equity:             12,038,575.00
+Equity change:                596,462.50
+Equity change (%):                  5.21
+
+Month: 11
+
+Starting equity:           12,038,575.00
+Ending equity:              9,212,675.00
+Equity change:             -2,825,900.00
+Equity change (%):                -23.47
+
+Month: 12
+
+Starting equity:            9,212,675.00
+Ending equity:              9,128,262.50
+Equity change:                -84,412.50
+Equity change (%):                 -0.92
+
+Year: 1979
+
+Starting equity:            9,128,262.50
+Ending equity:             16,613,450.00
+Equity change:              7,485,187.50
+Equity change (%):                 82.00
+
+Month: 1
+
+Starting equity:            9,128,262.50
+Ending equity:              8,863,200.00
+Equity change:               -265,062.50
+Equity change (%):                 -2.90
+
+Month: 2
+
+Starting equity:            8,863,200.00
+Ending equity:              7,951,112.50
+Equity change:               -912,087.50
+Equity change (%):                -10.29
+
+Month: 3
+
+Starting equity:            7,951,112.50
+Ending equity:              8,561,987.50
+Equity change:                610,875.00
+Equity change (%):                  7.68
+
+Month: 4
+
+Starting equity:            8,561,987.50
+Ending equity:             11,227,175.00
+Equity change:              2,665,187.50
+Equity change (%):                 31.13
+
+Month: 5
+
+Starting equity:           11,227,175.00
+Ending equity:             11,254,475.00
+Equity change:                 27,300.00
+Equity change (%):                  0.24
+
+Month: 6
+
+Starting equity:           11,254,475.00
+Ending equity:             12,973,762.50
+Equity change:              1,719,287.50
+Equity change (%):                 15.28
+
+Month: 7
+
+Starting equity:           12,973,762.50
+Ending equity:             12,109,250.00
+Equity change:               -864,512.50
+Equity change (%):                 -6.66
+
+Month: 8
+
+Starting equity:           12,109,250.00
+Ending equity:             12,319,650.00
+Equity change:                210,400.00
+Equity change (%):                  1.74
+
+Month: 9
+
+Starting equity:           12,319,650.00
+Ending equity:             16,208,800.00
+Equity change:              3,889,150.00
+Equity change (%):                 31.57
+
+Month: 10
+
+Starting equity:           16,208,800.00
+Ending equity:             14,619,337.50
+Equity change:             -1,589,462.50
+Equity change (%):                 -9.81
+
+Month: 11
+
+Starting equity:           14,619,337.50
+Ending equity:             19,083,650.00
+Equity change:              4,464,312.50
+Equity change (%):                 30.54
+
+Month: 12
+
+Starting equity:           19,083,650.00
+Ending equity:             16,613,450.00
+Equity change:             -2,470,200.00
+Equity change (%):                -12.94
+
+Year: 1980
+
+Starting equity:           16,613,450.00
+Ending equity:             19,075,800.00
+Equity change:              2,462,350.00
+Equity change (%):                 14.82
+
+Month: 1
+
+Starting equity:           16,613,450.00
+Ending equity:             16,598,012.50
+Equity change:                -15,437.50
+Equity change (%):                 -0.09
+
+Month: 2
+
+Starting equity:           16,598,012.50
+Ending equity:             18,335,287.50
+Equity change:              1,737,275.00
+Equity change (%):                 10.47
+
+Month: 3
+
+Starting equity:           18,335,287.50
+Ending equity:             24,337,437.50
+Equity change:              6,002,150.00
+Equity change (%):                 32.74
+
+Month: 4
+
+Starting equity:           24,337,437.50
+Ending equity:             17,057,337.50
+Equity change:             -7,280,100.00
+Equity change (%):                -29.91
+
+Month: 5
+
+Starting equity:           17,057,337.50
+Ending equity:             18,964,875.00
+Equity change:              1,907,537.50
+Equity change (%):                 11.18
+
+Month: 6
+
+Starting equity:           18,964,875.00
+Ending equity:             19,267,987.50
+Equity change:                303,112.50
+Equity change (%):                  1.60
+
+Month: 7
+
+Starting equity:           19,267,987.50
+Ending equity:             19,916,412.50
+Equity change:                648,425.00
+Equity change (%):                  3.37
+
+Month: 8
+
+Starting equity:           19,916,412.50
+Ending equity:             16,045,100.00
+Equity change:             -3,871,312.50
+Equity change (%):                -19.44
+
+Month: 9
+
+Starting equity:           16,045,100.00
+Ending equity:             15,031,387.50
+Equity change:             -1,013,712.50
+Equity change (%):                 -6.32
+
+Month: 10
+
+Starting equity:           15,031,387.50
+Ending equity:             16,367,375.00
+Equity change:              1,335,987.50
+Equity change (%):                  8.89
+
+Month: 11
+
+Starting equity:           16,367,375.00
+Ending equity:             18,898,325.00
+Equity change:              2,530,950.00
+Equity change (%):                 15.46
+
+Month: 12
+
+Starting equity:           18,898,325.00
+Ending equity:             19,075,800.00
+Equity change:                177,475.00
+Equity change (%):                  0.94
+
+Year: 1981
+
+Starting equity:           19,075,800.00
+Ending equity:             30,347,912.50
+Equity change:             11,272,112.50
+Equity change (%):                 59.09
+
+Month: 1
+
+Starting equity:           19,075,800.00
+Ending equity:             19,852,687.50
+Equity change:                776,887.50
+Equity change (%):                  4.07
+
+Month: 2
+
+Starting equity:           19,852,687.50
+Ending equity:             24,923,487.50
+Equity change:              5,070,800.00
+Equity change (%):                 25.54
+
+Month: 3
+
+Starting equity:           24,923,487.50
+Ending equity:             20,765,037.50
+Equity change:             -4,158,450.00
+Equity change (%):                -16.68
+
+Month: 4
+
+Starting equity:           20,765,037.50
+Ending equity:             22,330,050.00
+Equity change:              1,565,012.50
+Equity change (%):                  7.54
+
+Month: 5
+
+Starting equity:           22,330,050.00
+Ending equity:             24,995,162.50
+Equity change:              2,665,112.50
+Equity change (%):                 11.94
+
+Month: 6
+
+Starting equity:           24,995,162.50
+Ending equity:             24,687,637.50
+Equity change:               -307,525.00
+Equity change (%):                 -1.23
+
+Month: 7
+
+Starting equity:           24,687,637.50
+Ending equity:             33,156,012.50
+Equity change:              8,468,375.00
+Equity change (%):                 34.30
+
+Month: 8
+
+Starting equity:           33,156,012.50
+Ending equity:             25,980,212.50
+Equity change:             -7,175,800.00
+Equity change (%):                -21.64
+
+Month: 9
+
+Starting equity:           25,980,212.50
+Ending equity:             25,461,775.00
+Equity change:               -518,437.50
+Equity change (%):                 -2.00
+
+Month: 10
+
+Starting equity:           25,461,775.00
+Ending equity:             31,093,500.00
+Equity change:              5,631,725.00
+Equity change (%):                 22.12
+
+Month: 11
+
+Starting equity:           31,093,500.00
+Ending equity:             32,939,512.50
+Equity change:              1,846,012.50
+Equity change (%):                  5.94
+
+Month: 12
+
+Starting equity:           32,939,512.50
+Ending equity:             30,347,912.50
+Equity change:             -2,591,600.00
+Equity change (%):                 -7.87
+
+Year: 1982
+
+Starting equity:           30,347,912.50
+Ending equity:             41,335,987.50
+Equity change:             10,988,075.00
+Equity change (%):                 36.21
+
+Month: 1
+
+Starting equity:           30,347,912.50
+Ending equity:             34,428,587.50
+Equity change:              4,080,675.00
+Equity change (%):                 13.45
+
+Month: 2
+
+Starting equity:           34,428,587.50
+Ending equity:             40,068,150.00
+Equity change:              5,639,562.50
+Equity change (%):                 16.38
+
+Month: 3
+
+Starting equity:           40,068,150.00
+Ending equity:             38,327,537.50
+Equity change:             -1,740,612.50
+Equity change (%):                 -4.34
+
+Month: 4
+
+Starting equity:           38,327,537.50
+Ending equity:             38,381,250.00
+Equity change:                 53,712.50
+Equity change (%):                  0.14
+
+Month: 5
+
+Starting equity:           38,381,250.00
+Ending equity:             34,979,750.00
+Equity change:             -3,401,500.00
+Equity change (%):                 -8.86
+
+Month: 6
+
+Starting equity:           34,979,750.00
+Ending equity:             38,928,837.50
+Equity change:              3,949,087.50
+Equity change (%):                 11.29
+
+Month: 7
+
+Starting equity:           38,928,837.50
+Ending equity:             35,674,412.50
+Equity change:             -3,254,425.00
+Equity change (%):                 -8.36
+
+Month: 8
+
+Starting equity:           35,674,412.50
+Ending equity:             37,858,412.50
+Equity change:              2,184,000.00
+Equity change (%):                  6.12
+
+Month: 9
+
+Starting equity:           37,858,412.50
+Ending equity:             38,052,037.50
+Equity change:                193,625.00
+Equity change (%):                  0.51
+
+Month: 10
+
+Starting equity:           38,052,037.50
+Ending equity:             35,705,162.50
+Equity change:             -2,346,875.00
+Equity change (%):                 -6.17
+
+Month: 11
+
+Starting equity:           35,705,162.50
+Ending equity:             36,520,537.50
+Equity change:                815,375.00
+Equity change (%):                  2.28
+
+Month: 12
+
+Starting equity:           36,520,537.50
+Ending equity:             41,335,987.50
+Equity change:              4,815,450.00
+Equity change (%):                 13.19
+
+Year: 1983
+
+Starting equity:           41,335,987.50
+Ending equity:             34,558,900.00
+Equity change:             -6,777,087.50
+Equity change (%):                -16.40
+
+Month: 1
+
+Starting equity:           41,335,987.50
+Ending equity:             36,704,750.00
+Equity change:             -4,631,237.50
+Equity change (%):                -11.20
+
+Month: 2
+
+Starting equity:           36,704,750.00
+Ending equity:             34,816,425.00
+Equity change:             -1,888,325.00
+Equity change (%):                 -5.14
+
+Month: 3
+
+Starting equity:           34,816,425.00
+Ending equity:             34,752,062.50
+Equity change:                -64,362.50
+Equity change (%):                 -0.18
+
+Month: 4
+
+Starting equity:           34,752,062.50
+Ending equity:             34,166,500.00
+Equity change:               -585,562.50
+Equity change (%):                 -1.68
+
+Month: 5
+
+Starting equity:           34,166,500.00
+Ending equity:             31,713,025.00
+Equity change:             -2,453,475.00
+Equity change (%):                 -7.18
+
+Month: 6
+
+Starting equity:           31,713,025.00
+Ending equity:             29,065,850.00
+Equity change:             -2,647,175.00
+Equity change (%):                 -8.35
+
+Month: 7
+
+Starting equity:           29,065,850.00
+Ending equity:             29,189,612.50
+Equity change:                123,762.50
+Equity change (%):                  0.43
+
+Month: 8
+
+Starting equity:           29,189,612.50
+Ending equity:             30,776,500.00
+Equity change:              1,586,887.50
+Equity change (%):                  5.44
+
+Month: 9
+
+Starting equity:           30,776,500.00
+Ending equity:             38,395,212.50
+Equity change:              7,618,712.50
+Equity change (%):                 24.75
+
+Month: 10
+
+Starting equity:           38,395,212.50
+Ending equity:             33,200,612.50
+Equity change:             -5,194,600.00
+Equity change (%):                -13.53
+
+Month: 11
+
+Starting equity:           33,200,612.50
+Ending equity:             33,831,100.00
+Equity change:                630,487.50
+Equity change (%):                  1.90
+
+Month: 12
+
+Starting equity:           33,831,100.00
+Ending equity:             34,558,900.00
+Equity change:                727,800.00
+Equity change (%):                  2.15
+
+Year: 1984
+
+Starting equity:           34,558,900.00
+Ending equity:             41,965,575.00
+Equity change:              7,406,675.00
+Equity change (%):                 21.43
+
+Month: 1
+
+Starting equity:           34,558,900.00
+Ending equity:             33,257,725.00
+Equity change:             -1,301,175.00
+Equity change (%):                 -3.77
+
+Month: 2
+
+Starting equity:           33,257,725.00
+Ending equity:             32,182,887.50
+Equity change:             -1,074,837.50
+Equity change (%):                 -3.23
+
+Month: 3
+
+Starting equity:           32,182,887.50
+Ending equity:             30,175,925.00
+Equity change:             -2,006,962.50
+Equity change (%):                 -6.24
+
+Month: 4
+
+Starting equity:           30,175,925.00
+Ending equity:             34,411,037.50
+Equity change:              4,235,112.50
+Equity change (%):                 14.03
+
+Month: 5
+
+Starting equity:           34,411,037.50
+Ending equity:             37,188,825.00
+Equity change:              2,777,787.50
+Equity change (%):                  8.07
+
+Month: 6
+
+Starting equity:           37,188,825.00
+Ending equity:             37,467,287.50
+Equity change:                278,462.50
+Equity change (%):                  0.75
+
+Month: 7
+
+Starting equity:           37,467,287.50
+Ending equity:             49,935,987.50
+Equity change:             12,468,700.00
+Equity change (%):                 33.28
+
+Month: 8
+
+Starting equity:           49,935,987.50
+Ending equity:             44,733,262.50
+Equity change:             -5,202,725.00
+Equity change (%):                -10.42
+
+Month: 9
+
+Starting equity:           44,733,262.50
+Ending equity:             45,394,625.00
+Equity change:                661,362.50
+Equity change (%):                  1.48
+
+Month: 10
+
+Starting equity:           45,394,625.00
+Ending equity:             44,138,875.00
+Equity change:             -1,255,750.00
+Equity change (%):                 -2.77
+
+Month: 11
+
+Starting equity:           44,138,875.00
+Ending equity:             41,563,700.00
+Equity change:             -2,575,175.00
+Equity change (%):                 -5.83
+
+Month: 12
+
+Starting equity:           41,563,700.00
+Ending equity:             41,965,575.00
+Equity change:                401,875.00
+Equity change (%):                  0.97
+
+Year: 1985
+
+Starting equity:           41,965,575.00
+Ending equity:             79,208,987.50
+Equity change:             37,243,412.50
+Equity change (%):                 88.75
+
+Month: 1
+
+Starting equity:           41,965,575.00
+Ending equity:             48,684,812.50
+Equity change:              6,719,237.50
+Equity change (%):                 16.01
+
+Month: 2
+
+Starting equity:           48,684,812.50
+Ending equity:             63,483,312.50
+Equity change:             14,798,500.00
+Equity change (%):                 30.40
+
+Month: 3
+
+Starting equity:           63,483,312.50
+Ending equity:             72,579,587.50
+Equity change:              9,096,275.00
+Equity change (%):                 14.33
+
+Month: 4
+
+Starting equity:           72,579,587.50
+Ending equity:             69,869,487.50
+Equity change:             -2,710,100.00
+Equity change (%):                 -3.73
+
+Month: 5
+
+Starting equity:           69,869,487.50
+Ending equity:             71,610,762.50
+Equity change:              1,741,275.00
+Equity change (%):                  2.49
+
+Month: 6
+
+Starting equity:           71,610,762.50
+Ending equity:             70,141,087.50
+Equity change:             -1,469,675.00
+Equity change (%):                 -2.05
+
+Month: 7
+
+Starting equity:           70,141,087.50
+Ending equity:             96,751,200.00
+Equity change:             26,610,112.50
+Equity change (%):                 37.94
+
+Month: 8
+
+Starting equity:           96,751,200.00
+Ending equity:             84,495,250.00
+Equity change:            -12,255,950.00
+Equity change (%):                -12.67
+
+Month: 9
+
+Starting equity:           84,495,250.00
+Ending equity:             71,728,387.50
+Equity change:            -12,766,862.50
+Equity change (%):                -15.11
+
+Month: 10
+
+Starting equity:           71,728,387.50
+Ending equity:             74,859,725.00
+Equity change:              3,131,337.50
+Equity change (%):                  4.37
+
+Month: 11
+
+Starting equity:           74,859,725.00
+Ending equity:             88,457,100.00
+Equity change:             13,597,375.00
+Equity change (%):                 18.16
+
+Month: 12
+
+Starting equity:           88,457,100.00
+Ending equity:             79,208,987.50
+Equity change:             -9,248,112.50
+Equity change (%):                -10.45
+
+Year: 1986
+
+Starting equity:           79,208,987.50
+Ending equity:             86,690,762.50
+Equity change:              7,481,775.00
+Equity change (%):                  9.45
+
+Month: 1
+
+Starting equity:           79,208,987.50
+Ending equity:             83,604,225.00
+Equity change:              4,395,237.50
+Equity change (%):                  5.55
+
+Month: 2
+
+Starting equity:           83,604,225.00
+Ending equity:            126,941,925.00
+Equity change:             43,337,700.00
+Equity change (%):                 51.84
+
+Month: 3
+
+Starting equity:          126,941,925.00
+Ending equity:            109,910,612.50
+Equity change:            -17,031,312.50
+Equity change (%):                -13.42
+
+Month: 4
+
+Starting equity:          109,910,612.50
+Ending equity:             94,948,562.50
+Equity change:            -14,962,050.00
+Equity change (%):                -13.61
+
+Month: 5
+
+Starting equity:           94,948,562.50
+Ending equity:             76,441,412.50
+Equity change:            -18,507,150.00
+Equity change (%):                -19.49
+
+Month: 6
+
+Starting equity:           76,441,412.50
+Ending equity:             73,006,325.00
+Equity change:             -3,435,087.50
+Equity change (%):                 -4.49
+
+Month: 7
+
+Starting equity:           73,006,325.00
+Ending equity:             96,119,475.00
+Equity change:             23,113,150.00
+Equity change (%):                 31.66
+
+Month: 8
+
+Starting equity:           96,119,475.00
+Ending equity:             96,537,925.00
+Equity change:                418,450.00
+Equity change (%):                  0.44
+
+Month: 9
+
+Starting equity:           96,537,925.00
+Ending equity:             87,195,400.00
+Equity change:             -9,342,525.00
+Equity change (%):                 -9.68
+
+Month: 10
+
+Starting equity:           87,195,400.00
+Ending equity:             97,744,250.00
+Equity change:             10,548,850.00
+Equity change (%):                 12.10
+
+Month: 11
+
+Starting equity:           97,744,250.00
+Ending equity:             87,634,225.00
+Equity change:            -10,110,025.00
+Equity change (%):                -10.34
+
+Month: 12
+
+Starting equity:           87,634,225.00
+Ending equity:             86,690,762.50
+Equity change:               -943,462.50
+Equity change (%):                 -1.08
+
+Year: 1987
+
+Starting equity:           86,690,762.50
+Ending equity:            171,940,937.50
+Equity change:             85,250,175.00
+Equity change (%):                 98.34
+
+Month: 1
+
+Starting equity:           86,690,762.50
+Ending equity:            105,378,375.00
+Equity change:             18,687,612.50
+Equity change (%):                 21.56
+
+Month: 2
+
+Starting equity:          105,378,375.00
+Ending equity:            102,050,387.50
+Equity change:             -3,327,987.50
+Equity change (%):                 -3.16
+
+Month: 3
+
+Starting equity:          102,050,387.50
+Ending equity:            100,701,512.50
+Equity change:             -1,348,875.00
+Equity change (%):                 -1.32
+
+Month: 4
+
+Starting equity:          100,701,512.50
+Ending equity:            143,630,712.50
+Equity change:             42,929,200.00
+Equity change (%):                 42.63
+
+Month: 5
+
+Starting equity:          143,630,712.50
+Ending equity:            106,340,575.00
+Equity change:            -37,290,137.50
+Equity change (%):                -25.96
+
+Month: 6
+
+Starting equity:          106,340,575.00
+Ending equity:            120,248,325.00
+Equity change:             13,907,750.00
+Equity change (%):                 13.08
+
+Month: 7
+
+Starting equity:          120,248,325.00
+Ending equity:            119,935,512.50
+Equity change:               -312,812.50
+Equity change (%):                 -0.26
+
+Month: 8
+
+Starting equity:          119,935,512.50
+Ending equity:            117,213,287.50
+Equity change:             -2,722,225.00
+Equity change (%):                 -2.27
+
+Month: 9
+
+Starting equity:          117,213,287.50
+Ending equity:            110,487,162.50
+Equity change:             -6,726,125.00
+Equity change (%):                 -5.74
+
+Month: 10
+
+Starting equity:          110,487,162.50
+Ending equity:            114,875,187.50
+Equity change:              4,388,025.00
+Equity change (%):                  3.97
+
+Month: 11
+
+Starting equity:          114,875,187.50
+Ending equity:            147,534,800.00
+Equity change:             32,659,612.50
+Equity change (%):                 28.43
+
+Month: 12
+
+Starting equity:          147,534,800.00
+Ending equity:            171,940,937.50
+Equity change:             24,406,137.50
+Equity change (%):                 16.54
+
+Year: 1988
+
+Starting equity:          171,940,937.50
+Ending equity:            211,385,725.00
+Equity change:             39,444,787.50
+Equity change (%):                 22.94
+
+Month: 1
+
+Starting equity:          171,940,937.50
+Ending equity:            118,655,037.50
+Equity change:            -53,285,900.00
+Equity change (%):                -30.99
+
+Month: 2
+
+Starting equity:          118,655,037.50
+Ending equity:            120,353,387.50
+Equity change:              1,698,350.00
+Equity change (%):                  1.43
+
+Month: 3
+
+Starting equity:          120,353,387.50
+Ending equity:            117,182,937.50
+Equity change:             -3,170,450.00
+Equity change (%):                 -2.63
+
+Month: 4
+
+Starting equity:          117,182,937.50
+Ending equity:             99,982,812.50
+Equity change:            -17,200,125.00
+Equity change (%):                -14.68
+
+Month: 5
+
+Starting equity:           99,982,812.50
+Ending equity:            110,996,700.00
+Equity change:             11,013,887.50
+Equity change (%):                 11.02
+
+Month: 6
+
+Starting equity:          110,996,700.00
+Ending equity:            132,907,825.00
+Equity change:             21,911,125.00
+Equity change (%):                 19.74
+
+Month: 7
+
+Starting equity:          132,907,825.00
+Ending equity:            138,821,725.00
+Equity change:              5,913,900.00
+Equity change (%):                  4.45
+
+Month: 8
+
+Starting equity:          138,821,725.00
+Ending equity:            149,844,875.00
+Equity change:             11,023,150.00
+Equity change (%):                  7.94
+
+Month: 9
+
+Starting equity:          149,844,875.00
+Ending equity:            139,599,487.50
+Equity change:            -10,245,387.50
+Equity change (%):                 -6.84
+
+Month: 10
+
+Starting equity:          139,599,487.50
+Ending equity:            190,825,012.50
+Equity change:             51,225,525.00
+Equity change (%):                 36.69
+
+Month: 11
+
+Starting equity:          190,825,012.50
+Ending equity:            238,691,112.50
+Equity change:             47,866,100.00
+Equity change (%):                 25.08
+
+Month: 12
+
+Starting equity:          238,691,112.50
+Ending equity:            211,385,725.00
+Equity change:            -27,305,387.50
+Equity change (%):                -11.44
+
+Year: 1989
+
+Starting equity:          211,385,725.00
+Ending equity:            364,786,012.50
+Equity change:            153,400,287.50
+Equity change (%):                 72.57
+
+Month: 1
+
+Starting equity:          211,385,725.00
+Ending equity:            254,045,550.00
+Equity change:             42,659,825.00
+Equity change (%):                 20.18
+
+Month: 2
+
+Starting equity:          254,045,550.00
+Ending equity:            208,493,675.00
+Equity change:            -45,551,875.00
+Equity change (%):                -17.93
+
+Month: 3
+
+Starting equity:          208,493,675.00
+Ending equity:            244,842,387.50
+Equity change:             36,348,712.50
+Equity change (%):                 17.43
+
+Month: 4
+
+Starting equity:          244,842,387.50
+Ending equity:            275,296,587.50
+Equity change:             30,454,200.00
+Equity change (%):                 12.44
+
+Month: 5
+
+Starting equity:          275,296,587.50
+Ending equity:            347,893,937.50
+Equity change:             72,597,350.00
+Equity change (%):                 26.37
+
+Month: 6
+
+Starting equity:          347,893,937.50
+Ending equity:            387,951,262.50
+Equity change:             40,057,325.00
+Equity change (%):                 11.51
+
+Month: 7
+
+Starting equity:          387,951,262.50
+Ending equity:            391,597,037.50
+Equity change:              3,645,775.00
+Equity change (%):                  0.94
+
+Month: 8
+
+Starting equity:          391,597,037.50
+Ending equity:            362,913,975.00
+Equity change:            -28,683,062.50
+Equity change (%):                 -7.32
+
+Month: 9
+
+Starting equity:          362,913,975.00
+Ending equity:            387,852,825.00
+Equity change:             24,938,850.00
+Equity change (%):                  6.87
+
+Month: 10
+
+Starting equity:          387,852,825.00
+Ending equity:            361,570,312.50
+Equity change:            -26,282,512.50
+Equity change (%):                 -6.78
+
+Month: 11
+
+Starting equity:          361,570,312.50
+Ending equity:            361,499,637.50
+Equity change:                -70,675.00
+Equity change (%):                 -0.02
+
+Month: 12
+
+Starting equity:          361,499,637.50
+Ending equity:            364,786,012.50
+Equity change:              3,286,375.00
+Equity change (%):                  0.91
+
+Year: 1990
+
+Starting equity:          364,786,012.50
+Ending equity:            390,677,487.50
+Equity change:             25,891,475.00
+Equity change (%):                  7.10
+
+Month: 1
+
+Starting equity:          364,786,012.50
+Ending equity:            360,706,137.50
+Equity change:             -4,079,875.00
+Equity change (%):                 -1.12
+
+Month: 2
+
+Starting equity:          360,706,137.50
+Ending equity:            357,479,187.50
+Equity change:             -3,226,950.00
+Equity change (%):                 -0.89
+
+Month: 3
+
+Starting equity:          357,479,187.50
+Ending equity:            412,918,687.50
+Equity change:             55,439,500.00
+Equity change (%):                 15.51
+
+Month: 4
+
+Starting equity:          412,918,687.50
+Ending equity:            416,360,087.50
+Equity change:              3,441,400.00
+Equity change (%):                  0.83
+
+Month: 5
+
+Starting equity:          416,360,087.50
+Ending equity:            369,549,387.50
+Equity change:            -46,810,700.00
+Equity change (%):                -11.24
+
+Month: 6
+
+Starting equity:          369,549,387.50
+Ending equity:            352,085,675.00
+Equity change:            -17,463,712.50
+Equity change (%):                 -4.73
+
+Month: 7
+
+Starting equity:          352,085,675.00
+Ending equity:            389,665,625.00
+Equity change:             37,579,950.00
+Equity change (%):                 10.67
+
+Month: 8
+
+Starting equity:          389,665,625.00
+Ending equity:            427,040,762.50
+Equity change:             37,375,137.50
+Equity change (%):                  9.59
+
+Month: 9
+
+Starting equity:          427,040,762.50
+Ending equity:            427,725,237.50
+Equity change:                684,475.00
+Equity change (%):                  0.16
+
+Month: 10
+
+Starting equity:          427,725,237.50
+Ending equity:            437,816,162.50
+Equity change:             10,090,925.00
+Equity change (%):                  2.36
+
+Month: 11
+
+Starting equity:          437,816,162.50
+Ending equity:            394,669,150.00
+Equity change:            -43,147,012.50
+Equity change (%):                 -9.86
+
+Month: 12
+
+Starting equity:          394,669,150.00
+Ending equity:            390,677,487.50
+Equity change:             -3,991,662.50
+Equity change (%):                 -1.01
+
+Year: 1991
+
+Starting equity:          390,677,487.50
+Ending equity:            353,771,050.00
+Equity change:            -36,906,437.50
+Equity change (%):                 -9.45
+
+Month: 1
+
+Starting equity:          390,677,487.50
+Ending equity:            379,250,637.50
+Equity change:            -11,426,850.00
+Equity change (%):                 -2.92
+
+Month: 2
+
+Starting equity:          379,250,637.50
+Ending equity:            366,961,262.50
+Equity change:            -12,289,375.00
+Equity change (%):                 -3.24
+
+Month: 3
+
+Starting equity:          366,961,262.50
+Ending equity:            431,001,775.00
+Equity change:             64,040,512.50
+Equity change (%):                 17.45
+
+Month: 4
+
+Starting equity:          431,001,775.00
+Ending equity:            366,020,962.50
+Equity change:            -64,980,812.50
+Equity change (%):                -15.08
+
+Month: 5
+
+Starting equity:          366,020,962.50
+Ending equity:            355,218,950.00
+Equity change:            -10,802,012.50
+Equity change (%):                 -2.95
+
+Month: 6
+
+Starting equity:          355,218,950.00
+Ending equity:            357,500,737.50
+Equity change:              2,281,787.50
+Equity change (%):                  0.64
+
+Month: 7
+
+Starting equity:          357,500,737.50
+Ending equity:            342,439,712.50
+Equity change:            -15,061,025.00
+Equity change (%):                 -4.21
+
+Month: 8
+
+Starting equity:          342,439,712.50
+Ending equity:            333,246,750.00
+Equity change:             -9,192,962.50
+Equity change (%):                 -2.68
+
+Month: 9
+
+Starting equity:          333,246,750.00
+Ending equity:            351,447,162.50
+Equity change:             18,200,412.50
+Equity change (%):                  5.46
+
+Month: 10
+
+Starting equity:          351,447,162.50
+Ending equity:            330,695,262.50
+Equity change:            -20,751,900.00
+Equity change (%):                 -5.90
+
+Month: 11
+
+Starting equity:          330,695,262.50
+Ending equity:            327,587,837.50
+Equity change:             -3,107,425.00
+Equity change (%):                 -0.94
+
+Month: 12
+
+Starting equity:          327,587,837.50
+Ending equity:            353,771,050.00
+Equity change:             26,183,212.50
+Equity change (%):                  7.99
+
+Year: 1992
+
+Starting equity:          353,771,050.00
+Ending equity:            493,266,125.00
+Equity change:            139,495,075.00
+Equity change (%):                 39.43
+
+Month: 1
+
+Starting equity:          353,771,050.00
+Ending equity:            319,519,537.50
+Equity change:            -34,251,512.50
+Equity change (%):                 -9.68
+
+Month: 2
+
+Starting equity:          319,519,537.50
+Ending equity:            322,848,450.00
+Equity change:              3,328,912.50
+Equity change (%):                  1.04
+
+Month: 3
+
+Starting equity:          322,848,450.00
+Ending equity:            368,698,412.50
+Equity change:             45,849,962.50
+Equity change (%):                 14.20
+
+Month: 4
+
+Starting equity:          368,698,412.50
+Ending equity:            349,893,100.00
+Equity change:            -18,805,312.50
+Equity change (%):                 -5.10
+
+Month: 5
+
+Starting equity:          349,893,100.00
+Ending equity:            360,063,012.50
+Equity change:             10,169,912.50
+Equity change (%):                  2.91
+
+Month: 6
+
+Starting equity:          360,063,012.50
+Ending equity:            394,131,437.50
+Equity change:             34,068,425.00
+Equity change (%):                  9.46
+
+Month: 7
+
+Starting equity:          394,131,437.50
+Ending equity:            427,118,150.00
+Equity change:             32,986,712.50
+Equity change (%):                  8.37
+
+Month: 8
+
+Starting equity:          427,118,150.00
+Ending equity:            531,551,350.00
+Equity change:            104,433,200.00
+Equity change (%):                 24.45
+
+Month: 9
+
+Starting equity:          531,551,350.00
+Ending equity:            500,200,675.00
+Equity change:            -31,350,675.00
+Equity change (%):                 -5.90
+
+Month: 10
+
+Starting equity:          500,200,675.00
+Ending equity:            483,348,100.00
+Equity change:            -16,852,575.00
+Equity change (%):                 -3.37
+
+Month: 11
+
+Starting equity:          483,348,100.00
+Ending equity:            509,296,925.00
+Equity change:             25,948,825.00
+Equity change (%):                  5.37
+
+Month: 12
+
+Starting equity:          509,296,925.00
+Ending equity:            493,266,125.00
+Equity change:            -16,030,800.00
+Equity change (%):                 -3.15
+
+Year: 1993
+
+Starting equity:          493,266,125.00
+Ending equity:            570,437,787.50
+Equity change:             77,171,662.50
+Equity change (%):                 15.65
+
+Month: 1
+
+Starting equity:          493,266,125.00
+Ending equity:            471,798,475.00
+Equity change:            -21,467,650.00
+Equity change (%):                 -4.35
+
+Month: 2
+
+Starting equity:          471,798,475.00
+Ending equity:            477,637,450.00
+Equity change:              5,838,975.00
+Equity change (%):                  1.24
+
+Month: 3
+
+Starting equity:          477,637,450.00
+Ending equity:            490,675,475.00
+Equity change:             13,038,025.00
+Equity change (%):                  2.73
+
+Month: 4
+
+Starting equity:          490,675,475.00
+Ending equity:            547,096,625.00
+Equity change:             56,421,150.00
+Equity change (%):                 11.50
+
+Month: 5
+
+Starting equity:          547,096,625.00
+Ending equity:            601,506,737.50
+Equity change:             54,410,112.50
+Equity change (%):                  9.95
+
+Month: 6
+
+Starting equity:          601,506,737.50
+Ending equity:            585,703,550.00
+Equity change:            -15,803,187.50
+Equity change (%):                 -2.63
+
+Month: 7
+
+Starting equity:          585,703,550.00
+Ending equity:            582,380,225.00
+Equity change:             -3,323,325.00
+Equity change (%):                 -0.57
+
+Month: 8
+
+Starting equity:          582,380,225.00
+Ending equity:            573,785,812.50
+Equity change:             -8,594,412.50
+Equity change (%):                 -1.48
+
+Month: 9
+
+Starting equity:          573,785,812.50
+Ending equity:            593,504,375.00
+Equity change:             19,718,562.50
+Equity change (%):                  3.44
+
+Month: 10
+
+Starting equity:          593,504,375.00
+Ending equity:            612,123,437.50
+Equity change:             18,619,062.50
+Equity change (%):                  3.14
+
+Month: 11
+
+Starting equity:          612,123,437.50
+Ending equity:            597,432,912.50
+Equity change:            -14,690,525.00
+Equity change (%):                 -2.40
+
+Month: 12
+
+Starting equity:          597,432,912.50
+Ending equity:            570,437,787.50
+Equity change:            -26,995,125.00
+Equity change (%):                 -4.52
+
+Year: 1994
+
+Starting equity:          570,437,787.50
+Ending equity:            429,288,775.00
+Equity change:           -141,149,012.50
+Equity change (%):                -24.74
+
+Month: 1
+
+Starting equity:          570,437,787.50
+Ending equity:            552,963,687.50
+Equity change:            -17,474,100.00
+Equity change (%):                 -3.06
+
+Month: 2
+
+Starting equity:          552,963,687.50
+Ending equity:            572,785,225.00
+Equity change:             19,821,537.50
+Equity change (%):                  3.58
+
+Month: 3
+
+Starting equity:          572,785,225.00
+Ending equity:            534,094,475.00
+Equity change:            -38,690,750.00
+Equity change (%):                 -6.75
+
+Month: 4
+
+Starting equity:          534,094,475.00
+Ending equity:            522,381,662.50
+Equity change:            -11,712,812.50
+Equity change (%):                 -2.19
+
+Month: 5
+
+Starting equity:          522,381,662.50
+Ending equity:            488,431,937.50
+Equity change:            -33,949,725.00
+Equity change (%):                 -6.50
+
+Month: 6
+
+Starting equity:          488,431,937.50
+Ending equity:            530,831,850.00
+Equity change:             42,399,912.50
+Equity change (%):                  8.68
+
+Month: 7
+
+Starting equity:          530,831,850.00
+Ending equity:            518,445,900.00
+Equity change:            -12,385,950.00
+Equity change (%):                 -2.33
+
+Month: 8
+
+Starting equity:          518,445,900.00
+Ending equity:            449,672,650.00
+Equity change:            -68,773,250.00
+Equity change (%):                -13.27
+
+Month: 9
+
+Starting equity:          449,672,650.00
+Ending equity:            433,340,562.50
+Equity change:            -16,332,087.50
+Equity change (%):                 -3.63
+
+Month: 10
+
+Starting equity:          433,340,562.50
+Ending equity:            453,414,637.50
+Equity change:             20,074,075.00
+Equity change (%):                  4.63
+
+Month: 11
+
+Starting equity:          453,414,637.50
+Ending equity:            421,318,312.50
+Equity change:            -32,096,325.00
+Equity change (%):                 -7.08
+
+Month: 12
+
+Starting equity:          421,318,312.50
+Ending equity:            429,288,775.00
+Equity change:              7,970,462.50
+Equity change (%):                  1.89
+
+Year: 1995
+
+Starting equity:          429,288,775.00
+Ending equity:            658,605,812.50
+Equity change:            229,317,037.50
+Equity change (%):                 53.42
+
+Month: 1
+
+Starting equity:          429,288,775.00
+Ending equity:            413,766,625.00
+Equity change:            -15,522,150.00
+Equity change (%):                 -3.62
+
+Month: 2
+
+Starting equity:          413,766,625.00
+Ending equity:            417,311,650.00
+Equity change:              3,545,025.00
+Equity change (%):                  0.86
+
+Month: 3
+
+Starting equity:          417,311,650.00
+Ending equity:            615,441,512.50
+Equity change:            198,129,862.50
+Equity change (%):                 47.48
+
+Month: 4
+
+Starting equity:          615,441,512.50
+Ending equity:            645,567,812.50
+Equity change:             30,126,300.00
+Equity change (%):                  4.90
+
+Month: 5
+
+Starting equity:          645,567,812.50
+Ending equity:            480,786,725.00
+Equity change:           -164,781,087.50
+Equity change (%):                -25.52
+
+Month: 6
+
+Starting equity:          480,786,725.00
+Ending equity:            480,437,237.50
+Equity change:               -349,487.50
+Equity change (%):                 -0.07
+
+Month: 7
+
+Starting equity:          480,437,237.50
+Ending equity:            492,412,962.50
+Equity change:             11,975,725.00
+Equity change (%):                  2.49
+
+Month: 8
+
+Starting equity:          492,412,962.50
+Ending equity:            606,789,350.00
+Equity change:            114,376,387.50
+Equity change (%):                 23.23
+
+Month: 9
+
+Starting equity:          606,789,350.00
+Ending equity:            689,777,862.50
+Equity change:             82,988,512.50
+Equity change (%):                 13.68
+
+Month: 10
+
+Starting equity:          689,777,862.50
+Ending equity:            708,311,162.50
+Equity change:             18,533,300.00
+Equity change (%):                  2.69
+
+Month: 11
+
+Starting equity:          708,311,162.50
+Ending equity:            657,882,400.00
+Equity change:            -50,428,762.50
+Equity change (%):                 -7.12
+
+Month: 12
+
+Starting equity:          657,882,400.00
+Ending equity:            658,605,812.50
+Equity change:                723,412.50
+Equity change (%):                  0.11
+
+Year: 1996
+
+Starting equity:          658,605,812.50
+Ending equity:            705,560,287.50
+Equity change:             46,954,475.00
+Equity change (%):                  7.13
+
+Month: 1
+
+Starting equity:          658,605,812.50
+Ending equity:            707,845,487.50
+Equity change:             49,239,675.00
+Equity change (%):                  7.48
+
+Month: 2
+
+Starting equity:          707,845,487.50
+Ending equity:            663,383,262.50
+Equity change:            -44,462,225.00
+Equity change (%):                 -6.28
+
+Month: 3
+
+Starting equity:          663,383,262.50
+Ending equity:            649,087,187.50
+Equity change:            -14,296,075.00
+Equity change (%):                 -2.16
+
+Month: 4
+
+Starting equity:          649,087,187.50
+Ending equity:            651,022,212.50
+Equity change:              1,935,025.00
+Equity change (%):                  0.30
+
+Month: 5
+
+Starting equity:          651,022,212.50
+Ending equity:            643,924,400.00
+Equity change:             -7,097,812.50
+Equity change (%):                 -1.09
+
+Month: 6
+
+Starting equity:          643,924,400.00
+Ending equity:            675,824,600.00
+Equity change:             31,900,200.00
+Equity change (%):                  4.95
+
+Month: 7
+
+Starting equity:          675,824,600.00
+Ending equity:            673,687,337.50
+Equity change:             -2,137,262.50
+Equity change (%):                 -0.32
+
+Month: 8
+
+Starting equity:          673,687,337.50
+Ending equity:            647,570,487.50
+Equity change:            -26,116,850.00
+Equity change (%):                 -3.88
+
+Month: 9
+
+Starting equity:          647,570,487.50
+Ending equity:            644,094,987.50
+Equity change:             -3,475,500.00
+Equity change (%):                 -0.54
+
+Month: 10
+
+Starting equity:          644,094,987.50
+Ending equity:            689,429,587.50
+Equity change:             45,334,600.00
+Equity change (%):                  7.04
+
+Month: 11
+
+Starting equity:          689,429,587.50
+Ending equity:            711,875,387.50
+Equity change:             22,445,800.00
+Equity change (%):                  3.26
+
+Month: 12
+
+Starting equity:          711,875,387.50
+Ending equity:            705,560,287.50
+Equity change:             -6,315,100.00
+Equity change (%):                 -0.89
+
+Year: 1997
+
+Starting equity:          705,560,287.50
+Ending equity:            896,043,300.00
+Equity change:            190,483,012.50
+Equity change (%):                 27.00
+
+Month: 1
+
+Starting equity:          705,560,287.50
+Ending equity:            809,008,600.00
+Equity change:            103,448,312.50
+Equity change (%):                 14.66
+
+Month: 2
+
+Starting equity:          809,008,600.00
+Ending equity:            832,880,550.00
+Equity change:             23,871,950.00
+Equity change (%):                  2.95
+
+Month: 3
+
+Starting equity:          832,880,550.00
+Ending equity:            827,186,712.50
+Equity change:             -5,693,837.50
+Equity change (%):                 -0.68
+
+Month: 4
+
+Starting equity:          827,186,712.50
+Ending equity:            811,473,225.00
+Equity change:            -15,713,487.50
+Equity change (%):                 -1.90
+
+Month: 5
+
+Starting equity:          811,473,225.00
+Ending equity:            775,888,887.50
+Equity change:            -35,584,337.50
+Equity change (%):                 -4.39
+
+Month: 6
+
+Starting equity:          775,888,887.50
+Ending equity:            779,382,250.00
+Equity change:              3,493,362.50
+Equity change (%):                  0.45
+
+Month: 7
+
+Starting equity:          779,382,250.00
+Ending equity:            838,627,725.00
+Equity change:             59,245,475.00
+Equity change (%):                  7.60
+
+Month: 8
+
+Starting equity:          838,627,725.00
+Ending equity:            830,693,662.50
+Equity change:             -7,934,062.50
+Equity change (%):                 -0.95
+
+Month: 9
+
+Starting equity:          830,693,662.50
+Ending equity:            786,922,187.50
+Equity change:            -43,771,475.00
+Equity change (%):                 -5.27
+
+Month: 10
+
+Starting equity:          786,922,187.50
+Ending equity:            779,862,962.50
+Equity change:             -7,059,225.00
+Equity change (%):                 -0.90
+
+Month: 11
+
+Starting equity:          779,862,962.50
+Ending equity:            906,996,100.00
+Equity change:            127,133,137.50
+Equity change (%):                 16.30
+
+Month: 12
+
+Starting equity:          906,996,100.00
+Ending equity:            896,043,300.00
+Equity change:            -10,952,800.00
+Equity change (%):                 -1.21
+
+Year: 1998
+
+Starting equity:          896,043,300.00
+Ending equity:            748,898,362.50
+Equity change:           -147,144,937.50
+Equity change (%):                -16.42
+
+Month: 1
+
+Starting equity:          896,043,300.00
+Ending equity:            860,181,137.50
+Equity change:            -35,862,162.50
+Equity change (%):                 -4.00
+
+Month: 2
+
+Starting equity:          860,181,137.50
+Ending equity:            828,846,462.50
+Equity change:            -31,334,675.00
+Equity change (%):                 -3.64
+
+Month: 3
+
+Starting equity:          828,846,462.50
+Ending equity:            876,840,925.00
+Equity change:             47,994,462.50
+Equity change (%):                  5.79
+
+Month: 4
+
+Starting equity:          876,840,925.00
+Ending equity:            831,907,925.00
+Equity change:            -44,933,000.00
+Equity change (%):                 -5.12
+
+Month: 5
+
+Starting equity:          831,907,925.00
+Ending equity:            867,417,112.50
+Equity change:             35,509,187.50
+Equity change (%):                  4.27
+
+Month: 6
+
+Starting equity:          867,417,112.50
+Ending equity:            848,869,262.50
+Equity change:            -18,547,850.00
+Equity change (%):                 -2.14
+
+Month: 7
+
+Starting equity:          848,869,262.50
+Ending equity:            839,912,712.50
+Equity change:             -8,956,550.00
+Equity change (%):                 -1.06
+
+Month: 8
+
+Starting equity:          839,912,712.50
+Ending equity:            764,594,625.00
+Equity change:            -75,318,087.50
+Equity change (%):                 -8.97
+
+Month: 9
+
+Starting equity:          764,594,625.00
+Ending equity:            795,144,100.00
+Equity change:             30,549,475.00
+Equity change (%):                  4.00
+
+Month: 10
+
+Starting equity:          795,144,100.00
+Ending equity:            865,888,462.50
+Equity change:             70,744,362.50
+Equity change (%):                  8.90
+
+Month: 11
+
+Starting equity:          865,888,462.50
+Ending equity:            775,285,300.00
+Equity change:            -90,603,162.50
+Equity change (%):                -10.46
+
+Month: 12
+
+Starting equity:          775,285,300.00
+Ending equity:            748,898,362.50
+Equity change:            -26,386,937.50
+Equity change (%):                 -3.40
+
+Year: 1999
+
+Starting equity:          748,898,362.50
+Ending equity:            796,307,237.50
+Equity change:             47,408,875.00
+Equity change (%):                  6.33
+
+Month: 1
+
+Starting equity:          748,898,362.50
+Ending equity:            725,032,362.50
+Equity change:            -23,866,000.00
+Equity change (%):                 -3.19
+
+Month: 2
+
+Starting equity:          725,032,362.50
+Ending equity:            740,068,462.50
+Equity change:             15,036,100.00
+Equity change (%):                  2.07
+
+Month: 3
+
+Starting equity:          740,068,462.50
+Ending equity:            744,839,375.00
+Equity change:              4,770,912.50
+Equity change (%):                  0.64
+
+Month: 4
+
+Starting equity:          744,839,375.00
+Ending equity:            760,023,725.00
+Equity change:             15,184,350.00
+Equity change (%):                  2.04
+
+Month: 5
+
+Starting equity:          760,023,725.00
+Ending equity:            754,335,637.50
+Equity change:             -5,688,087.50
+Equity change (%):                 -0.75
+
+Month: 6
+
+Starting equity:          754,335,637.50
+Ending equity:            737,906,087.50
+Equity change:            -16,429,550.00
+Equity change (%):                 -2.18
+
+Month: 7
+
+Starting equity:          737,906,087.50
+Ending equity:            746,771,412.50
+Equity change:              8,865,325.00
+Equity change (%):                  1.20
+
+Month: 8
+
+Starting equity:          746,771,412.50
+Ending equity:            772,247,325.00
+Equity change:             25,475,912.50
+Equity change (%):                  3.41
+
+Month: 9
+
+Starting equity:          772,247,325.00
+Ending equity:            822,388,250.00
+Equity change:             50,140,925.00
+Equity change (%):                  6.49
+
+Month: 10
+
+Starting equity:          822,388,250.00
+Ending equity:            797,028,937.50
+Equity change:            -25,359,312.50
+Equity change (%):                 -3.08
+
+Month: 11
+
+Starting equity:          797,028,937.50
+Ending equity:            799,789,750.00
+Equity change:              2,760,812.50
+Equity change (%):                  0.35
+
+Month: 12
+
+Starting equity:          799,789,750.00
+Ending equity:            796,307,237.50
+Equity change:             -3,482,512.50
+Equity change (%):                 -0.44
+
+
+largest_drawdown_string: 
+Percent:                          48.27%
+Start date:            19860227 12:00:00
+Low equity date:       19860623 12:00:00
+End date:              19870424 12:00:00
+High equity:              132,968,050.00
+Low equity:                68,787,175.00
+End reason:              New_High_Equity
+
+******
+
+Trade breakdown:
+
+Metric: closed_trade_state_closed_equity_change
+
+Group name                                     Sum   Percent     Count   Percent             Average   Percent              Median
+map [("ema_period", Int 20); ("system_permutation_id", Int 1)]      814,278,875.00    50.59%      2946    50.01%          276,401.52   101.16%          -17,456.25
+ SF                                 232,819,200.00    28.59%      1419    48.17%          164,072.73    59.36%           -7,875.00
+  short                             217,165,050.00    93.28%       665    46.86%          326,563.98   199.04%             -387.50
+   sf_short_1                       129,975,275.00    59.85%       356    53.53%          365,099.09   111.80%              500.00
+   sf_short_2                        71,829,837.50    33.08%       183    27.52%          392,512.77   120.19%             -662.50
+   sf_short_3                         6,935,637.50     3.19%        81    12.18%           85,625.15    26.22%          -20,250.00
+   sf_short_4                         8,424,300.00     3.88%        45     6.77%          187,206.67    57.33%           -2,500.00
+  long                               15,654,150.00     6.72%       754    53.14%           20,761.47    12.65%          -79,406.25
+   sf_long_1                        -73,090,475.00  -466.91%       438    58.09%         -166,873.23  -803.76%         -118,300.00
+   sf_long_2                         37,498,787.50   239.55%       178    23.61%          210,667.35  1014.70%          -40,350.00
+   sf_long_3                         36,461,937.50   232.92%        82    10.88%          444,657.77  2141.74%         -133,500.00
+   sf_long_4                         14,783,900.00    94.44%        56     7.43%          263,998.21  1271.58%          -47,687.50
+ JY                                 581,459,675.00    71.41%      1527    51.83%          380,785.64   137.77%          -25,725.00
+  short                             355,235,175.00    61.09%       757    49.57%          469,267.07   123.24%          -21,125.00
+   jy_short_1                        97,900,325.00    27.56%       393    51.92%          249,110.24    53.08%          -18,762.50
+   jy_short_2                       105,243,362.50    29.63%       220    29.06%          478,378.92   101.94%          -24,168.75
+   jy_short_3                        75,682,262.50    21.30%       101    13.34%          749,329.33   159.68%          -36,250.00
+   jy_short_4                        76,409,225.00    21.51%        43     5.68%        1,776,958.72   378.67%           38,525.00
+  long                              226,224,500.00    38.91%       770    50.43%          293,798.05    77.16%          -38,006.25
+   jy_long_1                        209,941,287.50    92.80%       419    54.42%          501,053.19   170.54%          -25,725.00
+   jy_long_2                         75,842,812.50    33.53%       217    28.18%          349,506.05   118.96%          -10,250.00
+   jy_long_3                        -26,835,300.00   -11.86%        88    11.43%         -304,946.59  -103.79%         -228,068.75
+   jy_long_4                        -32,724,300.00   -14.47%        46     5.97%         -711,397.83  -242.14%         -175,312.50
+map [("ema_period", Int 21); ("system_permutation_id", Int 2)]      795,307,237.50    49.41%      2945    49.99%          270,053.39    98.84%          -17,625.00
+ SF                                 237,369,462.50    29.85%      1427    48.46%          166,341.60    61.60%           -7,800.00
+  short                             220,458,525.00    92.88%       662    46.39%          333,018.92   200.20%             -100.00
+   sf_short_1                       128,422,825.00    58.25%       358    54.08%          358,722.97   107.72%              162.50
+   sf_short_2                        76,058,950.00    34.50%       177    26.74%          429,711.58   129.04%            2,650.00
+   sf_short_3                         7,700,837.50     3.49%        83    12.54%           92,781.17    27.86%          -20,250.00
+   sf_short_4                         8,275,912.50     3.75%        44     6.65%          188,088.92    56.48%          -17,831.25
+  long                               16,910,937.50     7.12%       765    53.61%           22,105.80    13.29%          -78,937.50
+   sf_long_1                        -72,894,275.00  -431.05%       446    58.30%         -163,440.08  -739.35%          -91,912.50
+   sf_long_2                         43,517,512.50   257.33%       178    23.27%          244,480.41  1105.96%          -45,675.00
+   sf_long_3                         29,672,237.50   175.46%        84    10.98%          353,240.92  1597.96%          -89,775.00
+   sf_long_4                         16,615,462.50    98.25%        57     7.45%          291,499.34  1318.66%          -58,425.00
+ JY                                 557,937,775.00    70.15%      1518    51.54%          367,547.94   136.10%          -29,075.00
+  short                             336,224,087.50    60.26%       748    49.28%          449,497.44   122.30%          -23,787.50
+   jy_short_1                        97,179,912.50    28.90%       383    51.20%          253,733.45    56.45%          -17,050.00
+   jy_short_2                        90,004,387.50    26.77%       223    29.81%          403,607.12    89.79%          -31,137.50
+   jy_short_3                        73,903,525.00    21.98%        99    13.24%          746,500.25   166.07%          -32,462.50
+   jy_short_4                        75,136,262.50    22.35%        43     5.75%        1,747,354.94   388.74%           38,525.00
+  long                              221,713,687.50    39.74%       770    50.72%          287,939.85    78.34%          -38,712.50
+   jy_long_1                        215,473,787.50    97.19%       420    54.55%          513,032.83   178.17%          -23,450.00
+   jy_long_2                         67,536,100.00    30.46%       216    28.05%          312,667.13   108.59%          -13,000.00
+   jy_long_3                        -28,195,337.50   -12.72%        89    11.56%         -316,801.54  -110.02%         -164,300.00
+   jy_long_4                        -33,100,862.50   -14.93%        45     5.84%         -735,574.72  -255.46%         -200,625.00
+
+Trade breakdown:
+
+Metric: closed_trade_state_closed_equity_profit
+
+Group name                                     Sum   Percent     Count   Percent             Average   Percent              Median
+map [("ema_period", Int 20); ("system_permutation_id", Int 1)]    3,122,393,537.50    50.21%      1248    50.14%        2,501,917.90   100.15%          687,050.00
+ SF                               1,272,414,900.00    40.75%       599    48.00%        2,124,231.89    84.90%          748,662.50
+  short                             607,811,550.00    47.77%       326    54.42%        1,864,452.61    87.77%          769,900.00
+   sf_short_1                       370,337,200.00    60.93%       181    55.52%        2,046,061.88   109.74%          806,625.00
+   sf_short_2                       159,159,175.00    26.19%        87    26.69%        1,829,415.80    98.12%          753,200.00
+   sf_short_3                        50,342,825.00     8.28%        36    11.04%        1,398,411.81    75.00%          656,125.00
+   sf_short_4                        27,972,350.00     4.60%        22     6.75%        1,271,470.45    68.20%          578,075.00
+  long                              664,603,350.00    52.23%       273    45.58%        2,434,444.51   114.60%          656,425.00
+   sf_long_1                        320,390,250.00    48.21%       154    56.41%        2,080,456.17    85.46%          619,112.50
+   sf_long_2                        176,034,587.50    26.49%        66    24.18%        2,667,190.72   109.56%          634,281.25
+   sf_long_4                         65,893,887.50     9.91%        25     9.16%        2,635,755.50   108.27%          635,625.00
+   sf_long_3                        102,284,625.00    15.39%        28    10.26%        3,653,022.32   150.06%        1,732,737.50
+ JY                               1,849,978,637.50    59.25%       649    52.00%        2,850,506.38   113.93%          645,575.00
+  long                              885,625,850.00    47.87%       309    47.61%        2,866,103.07   100.55%          847,687.50
+   jy_long_1                        514,872,975.00    58.14%       183    59.22%        2,813,513.52    98.17%          619,875.00
+   jy_long_2                        246,318,312.50    27.81%        83    26.86%        2,967,690.51   103.54%        1,312,800.00
+   jy_long_3                         88,689,225.00    10.01%        26     8.41%        3,411,124.04   119.02%        1,188,812.50
+   jy_long_4                         35,745,337.50     4.04%        17     5.50%        2,102,666.91    73.36%        1,636,550.00
+  short                             964,352,787.50    52.13%       340    52.39%        2,836,331.73    99.50%          483,981.25
+   jy_short_1                       437,452,512.50    45.36%       179    52.65%        2,443,868.78    86.16%          562,237.50
+   jy_short_2                       290,693,237.50    30.14%        99    29.12%        2,936,295.33   103.52%          480,725.00
+   jy_short_3                       139,959,087.50    14.51%        40    11.76%        3,498,977.19   123.36%          462,818.75
+   jy_short_4                        96,247,950.00     9.98%        22     6.47%        4,374,906.82   154.25%          204,931.25
+map [("ema_period", Int 21); ("system_permutation_id", Int 2)]    3,095,712,975.00    49.79%      1241    49.86%        2,494,531.00    99.85%          679,575.00
+ SF                               1,264,990,412.50    40.86%       596    48.03%        2,122,467.14    85.08%          714,812.50
+  short                             606,750,225.00    47.96%       327    54.87%        1,855,505.28    87.42%          749,275.00
+   sf_short_1                       367,841,487.50    60.62%       180    55.05%        2,043,563.82   110.14%          798,525.00
+   sf_short_2                       161,671,787.50    26.65%        90    27.52%        1,796,353.19    96.81%          746,337.50
+   sf_short_3                        49,667,200.00     8.19%        36    11.01%        1,379,644.44    74.35%          649,912.50
+   sf_short_4                        27,569,750.00     4.54%        21     6.42%        1,312,845.24    70.75%          574,225.00
+  long                              658,240,187.50    52.04%       269    45.13%        2,446,989.54   115.29%          659,750.00
+   sf_long_1                        316,752,975.00    48.12%       152    56.51%        2,083,901.15    85.16%          623,687.50
+   sf_long_2                        176,580,887.50    26.83%        65    24.16%        2,716,629.04   111.02%          455,975.00
+   sf_long_4                         65,644,100.00     9.97%        23     8.55%        2,854,091.30   116.64%          784,800.00
+   sf_long_3                         99,262,225.00    15.08%        29    10.78%        3,422,835.34   139.88%        1,240,400.00
+ JY                               1,830,722,562.50    59.14%       645    51.97%        2,838,329.55   113.78%          662,000.00
+  long                              881,498,925.00    48.15%       310    48.06%        2,843,544.92   100.18%          892,837.50
+   jy_long_1                        515,720,162.50    58.50%       186    60.00%        2,772,689.05    97.51%          667,562.50
+   jy_long_2                        242,202,787.50    27.48%        81    26.13%        2,990,157.87   105.16%        1,415,400.00
+   jy_long_3                         87,993,087.50     9.98%        26     8.39%        3,384,349.52   119.02%        1,148,250.00
+   jy_long_4                         35,582,887.50     4.04%        17     5.48%        2,093,111.03    73.61%        1,613,475.00
+  short                             949,223,637.50    51.85%       335    51.94%        2,833,503.40    99.83%          507,600.00
+   jy_short_1                       429,951,162.50    45.30%       175    52.24%        2,456,863.79    86.71%          547,800.00
+   jy_short_2                       286,126,250.00    30.14%        97    28.96%        2,949,755.15   104.10%          484,025.00
+   jy_short_3                       138,558,787.50    14.60%        41    12.24%        3,379,482.62   119.27%          477,600.00
+   jy_short_4                        94,587,437.50     9.96%        22     6.57%        4,299,428.98   151.74%          204,931.25
+
+Trade breakdown:
+
+Metric: closed_trade_state_closed_equity_loss
+
+Group name                                     Sum   Percent     Count   Percent             Average   Percent              Median
+map [("ema_period", Int 20); ("system_permutation_id", Int 1)]   -2,308,114,662.50    50.08%      1688    49.90%       -1,367,366.51   100.37%         -584,581.25
+ SF                              -1,039,595,700.00    45.04%       814    48.22%       -1,277,144.59    93.40%         -691,093.75
+  short                            -390,646,500.00    37.58%       336    41.28%       -1,162,638.39    91.03%         -541,700.00
+   sf_short_1                      -240,361,925.00    61.53%       173    51.49%       -1,389,375.29   119.50%         -804,212.50
+   sf_short_2                       -87,329,337.50    22.36%        96    28.57%         -909,680.60    78.24%         -301,025.00
+   sf_short_3                       -43,407,187.50    11.11%        44    13.10%         -986,526.99    84.85%         -525,950.00
+   sf_short_4                       -19,548,050.00     5.00%        23     6.85%         -849,915.22    73.10%         -424,000.00
+  long                             -648,949,200.00    62.42%       478    58.72%       -1,357,634.31   106.30%         -806,325.00
+   sf_long_1                       -393,480,725.00    60.63%       282    59.00%       -1,395,321.72   102.78%         -943,937.50
+   sf_long_2                       -138,535,800.00    21.35%       111    23.22%       -1,248,070.27    91.93%         -497,900.00
+   sf_long_3                        -65,822,687.50    10.14%        54    11.30%       -1,218,938.66    89.78%         -707,650.00
+   sf_long_4                        -51,109,987.50     7.88%        31     6.49%       -1,648,709.27   121.44%         -459,375.00
+ JY                              -1,268,518,962.50    54.96%       874    51.78%       -1,451,394.69   106.15%         -481,812.50
+  short                            -609,117,612.50    48.02%       415    47.48%       -1,467,753.28   101.13%         -449,600.00
+   jy_short_1                      -339,552,187.50    55.74%       213    51.33%       -1,594,141.73   108.61%         -652,050.00
+   jy_short_2                      -185,449,875.00    30.45%       120    28.92%       -1,545,415.63   105.29%         -447,831.25
+   jy_short_3                       -64,276,825.00    10.55%        61    14.70%       -1,053,718.44    71.79%         -194,250.00
+   jy_short_4                       -19,838,725.00     3.26%        21     5.06%         -944,701.19    64.36%         -233,037.50
+  long                             -659,401,350.00    51.98%       459    52.52%       -1,436,604.25    98.98%         -495,312.50
+   jy_long_1                       -304,931,687.50    46.24%       235    51.20%       -1,297,581.65    90.32%         -540,600.00
+   jy_long_2                       -170,475,500.00    25.85%       133    28.98%       -1,281,770.68    89.22%         -369,350.00
+   jy_long_3                       -115,524,525.00    17.52%        62    13.51%       -1,863,298.79   129.70%         -541,100.00
+   jy_long_4                        -68,469,637.50    10.38%        29     6.32%       -2,361,021.98   164.35%         -849,375.00
+map [("ema_period", Int 21); ("system_permutation_id", Int 2)]   -2,300,405,737.50    49.92%      1695    50.10%       -1,357,171.53    99.63%         -572,025.00
+ SF                              -1,027,620,950.00    44.67%       826    48.73%       -1,244,093.16    91.67%         -649,675.00
+  short                            -386,291,700.00    37.59%       332    40.19%       -1,163,529.22    93.52%         -530,487.50
+   sf_short_1                      -239,418,662.50    61.98%       176    53.01%       -1,360,333.31   116.91%         -753,731.25
+   sf_short_2                       -85,612,837.50    22.16%        87    26.20%         -984,055.60    84.58%         -411,000.00
+   sf_short_3                       -41,966,362.50    10.86%        46    13.86%         -912,312.23    78.41%         -383,287.50
+   sf_short_4                       -19,293,837.50     4.99%        23     6.93%         -838,862.50    72.10%         -368,350.00
+  long                             -641,329,250.00    62.41%       494    59.81%       -1,298,237.35   104.35%         -724,000.00
+   sf_long_1                       -389,647,250.00    60.76%       293    59.31%       -1,329,854.10   102.44%         -896,700.00
+   sf_long_2                       -133,063,375.00    20.75%       112    22.67%       -1,188,065.85    91.51%         -367,418.75
+   sf_long_3                        -69,589,987.50    10.85%        55    11.13%       -1,265,272.50    97.46%         -543,125.00
+   sf_long_4                        -49,028,637.50     7.64%        34     6.88%       -1,442,018.75   111.08%         -451,187.50
+ JY                              -1,272,784,787.50    55.33%       869    51.27%       -1,464,654.53   107.92%         -495,950.00
+  short                            -612,999,550.00    48.16%       411    47.30%       -1,491,483.09   101.83%         -488,250.00
+   jy_short_1                      -332,771,250.00    54.29%       207    50.36%       -1,607,590.58   107.78%         -640,062.50
+   jy_short_2                      -196,121,862.50    31.99%       125    30.41%       -1,568,974.90   105.20%         -476,900.00
+   jy_short_3                       -64,655,262.50    10.55%        58    14.11%       -1,114,745.91    74.74%         -213,131.25
+   jy_short_4                       -19,451,175.00     3.17%        21     5.11%         -926,246.43    62.10%         -236,925.00
+  long                             -659,785,237.50    51.84%       458    52.70%       -1,440,579.12    98.36%         -523,875.00
+   jy_long_1                       -300,246,375.00    45.51%       233    50.87%       -1,288,611.05    89.45%         -539,000.00
+   jy_long_2                       -174,666,687.50    26.47%       134    29.26%       -1,303,482.74    90.48%         -367,962.50
+   jy_long_3                       -116,188,425.00    17.61%        63    13.76%       -1,844,260.71   128.02%         -516,600.00
+   jy_long_4                        -68,683,750.00    10.41%        28     6.11%       -2,452,991.07   170.28%         -921,437.50
+
+

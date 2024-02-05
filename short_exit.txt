@@ -1,0 +1,37 @@
+(* Position exit requirements are as follows. Either:
+- C > n-date/time high
+OR
+- C > the lowest open trade entry price for all positions plus 2 times TREMA
+*)
+    let short_position_id_start = position_id_start |> int
+    let position_states =
+        [short_position_id_start..short_position_id_start+3]
+(* Convert position IDs to the corresponding position states. *)
+        |> List.map (fun id -> system_state.position_states.[id])
+(* Discard position states that do not exist for the previous date/time. *)
+        |> List.choose (function | Initial -> None | From_Previous_Date_Time position_state -> Some position_state)
+(* If any position state did not exist for the previous date/time, return no signal. *)
+    if List.length position_states < 4 then None, None
+    else
+        let output =
+(* Get the entry prices for all open trades for all positions. *)
+            match
+                position_states |> List.collect (fun position_state ->
+                    position_state.open_trades |> List.map (fun trade ->
+                        trade.entry_price
+                    )
+                )
+            with
+(* If there are no open trades, then the exit requirement is C > n-date/time high. *)
+            | [] ->
+                let result = c > high
+                output.Add("short_1_exit_tag", Bool result).Add("short_2_exit_tag", Bool result).Add("short_3_exit_tag", Bool result).Add("short_4_exit_tag", Bool result)
+            | xs ->
+(* If there are open trades, get the highest open trade entry price. *)
+                let lowest_entry_price = xs |> List.min
+(* The exit requirement is either C > n-date/time high or C > the lowest open trade entry price plus 2 times TREMA. *)
+                let result = c > high || c > lowest_entry_price + (2.0 * trema)
+(* The entry or exit signal tag value has type Bool. *)
+                output.Add("short_1_exit_tag", Bool result).Add("short_2_exit_tag", Bool result).Add("short_3_exit_tag", Bool result).Add("short_4_exit_tag", Bool result)
+(* The first return value is for storing user-defined state. The second return value is the output data item. *)
+        None, Some output

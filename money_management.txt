@@ -1,0 +1,9 @@
+(* We only send one input to this function. *)
+    let trema = (inputs |> Seq.head).Value
+    let desired_size = closed_equity * position_parameters.["equity_fraction"] / (trema * position_multiplier)
+
+    #if SYSTEM_STUDIO_DEBUG
+    printfn "Desired size: %.2f * %.2f / (%.6f * %.2f) = %.2f" closed_equity (position_parameters.["equity_fraction"]) trema position_multiplier desired_size
+    #endif
+
+    desired_size
